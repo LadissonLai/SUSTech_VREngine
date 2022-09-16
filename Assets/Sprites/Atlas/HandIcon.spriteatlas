@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HandIcon
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 2
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: b4e95be3aeda95d40a0b77754d5a204d, type: 3}
+    - {fileID: 2800000, guid: 6de919c3fae3bc441bc3b203c4e17fce, type: 3}
+    - {fileID: 2800000, guid: 2008199ee776558409ff1eb33f48118a, type: 3}
+    - {fileID: 2800000, guid: 668c37bb2a5ac9d478ee04da120756bf, type: 3}
+    totalSpriteSurfaceArea: 67600
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6de919c3fae3bc441bc3b203c4e17fce, type: 3}
+  - {fileID: 21300000, guid: b4e95be3aeda95d40a0b77754d5a204d, type: 3}
+  - {fileID: 21300000, guid: 668c37bb2a5ac9d478ee04da120756bf, type: 3}
+  - {fileID: 21300000, guid: 2008199ee776558409ff1eb33f48118a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 2
+  - 1
+  - 4
+  - 3
+  m_Tag: HandIcon
+  m_IsVariant: 0
