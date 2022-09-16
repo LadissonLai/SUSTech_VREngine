@@ -1,0 +1,3580 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42dff178cdcfb1740a46c868a9902c1e, type: 3}
+  m_Name: Fade
+  m_EditorClassIdentifier: 
+  AnimationNames:
+  - FoldHorizontal
+  - FoldVertical
+  - GrowOut
+  - OutFast
+  - OutNormal
+  - OutSlow
+  - Pop
+  - PopLeft
+  - PopRight
+  - SoftGrow
+  - SoftShrink
+  - TwistLeft
+  - TwistRight
+  Database:
+  - {fileID: 114869215507903604}
+  - {fileID: 114364648022981284}
+  - {fileID: 114078848925252062}
+  - {fileID: 114090095140561008}
+  - {fileID: 114772533903981604}
+  - {fileID: 114767618842237404}
+  - {fileID: 114797448301409050}
+  - {fileID: 114084579622047430}
+  - {fileID: 114425506316271102}
+  - {fileID: 114763251285300866}
+  - {fileID: 114999590948445398}
+  - {fileID: 114948792068099114}
+  - {fileID: 114766138512837398}
+  DatabaseName: Fade
+  DataType: 2
+--- !u!114 &114078848925252062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: GrowOut
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 180, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 1.2, y: 1.2, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Fade
+  Name: GrowOut
+--- !u!114 &114084579622047430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: PopLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 15}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 17
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 23
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+  Category: Fade
+  Name: PopLeft
+--- !u!114 &114090095140561008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: OutFast
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 180, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 2, y: 2, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+  Category: Fade
+  Name: OutFast
+--- !u!114 &114364648022981284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: FoldVertical
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 180, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.2
+  Category: Fade
+  Name: FoldVertical
+--- !u!114 &114425506316271102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: PopRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: -15}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 17
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 23
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+  Category: Fade
+  Name: PopRight
+--- !u!114 &114763251285300866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: SoftGrow
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: -15}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 17
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.8
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.2
+  Category: Fade
+  Name: SoftGrow
+--- !u!114 &114766138512837398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: TwistRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: -30}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.2
+  Category: Fade
+  Name: TwistRight
+--- !u!114 &114767618842237404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: OutSlow
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 180, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 2, y: 2, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.6
+  Category: Fade
+  Name: OutSlow
+--- !u!114 &114772533903981604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: OutNormal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 180, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 2, y: 2, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Fade
+  Name: OutNormal
+--- !u!114 &114797448301409050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Pop
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 180, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 23
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Fade
+  Name: Pop
+--- !u!114 &114869215507903604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: FoldHorizontal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 180, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.2
+  Category: Fade
+  Name: FoldHorizontal
+--- !u!114 &114948792068099114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: TwistLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 30}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.2
+  Category: Fade
+  Name: TwistLeft
+--- !u!114 &114999590948445398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: SoftShrink
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 2
+    Move:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 3
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 1
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7912683
+          outSlope: 2.7912683
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.1591474
+          value: 0.27871615
+          inSlope: -3.5244074
+          outSlope: -3.5244074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.36119476
+          value: 0.4033309
+          inSlope: -2.5759792
+          outSlope: -2.5759792
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6268808
+          value: 0.69904834
+          inSlope: -2.6110096
+          outSlope: -2.6110096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.8133894
+          value: 0.8256105
+          inSlope: -1.7523863
+          outSlope: -1.7523863
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 2
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: -15}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 17
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 7.0383096
+          outSlope: 7.0383096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.017583081
+          value: 0.18718478
+          inSlope: 0.08300995
+          outSlope: 0.08300995
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.057600502
+          value: 0.12739694
+          inSlope: 4.0301647
+          outSlope: 4.0301647
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.09568673
+          value: 0.25189704
+          inSlope: -3.516668
+          outSlope: -3.516668
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.15432346
+          value: 0.2683969
+          inSlope: -4.011477
+          outSlope: -4.011477
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.6206393
+          value: 0.37496966
+          inSlope: -1.7194864
+          outSlope: -1.7194864
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 4.481586
+          outSlope: 4.481586
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 2
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 2, y: 2, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 26
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: -6.503698
+          outSlope: -6.503698
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.10492328
+          value: -0.2293109
+          inSlope: 4.185171
+          outSlope: 4.185171
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.24543402
+          value: 0.03323266
+          inSlope: -1.7219948
+          outSlope: -1.7219948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.4196215
+          value: 0.15156424
+          inSlope: -2.7061355
+          outSlope: -2.7061355
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 0.592863
+          value: 0.27791208
+          inSlope: -1.6045417
+          outSlope: -1.6045417
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.5640811
+          outSlope: -0.5640811
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+    Fade:
+      AnimationType: 2
+      Enabled: 1
+      From: 0
+      To: 0
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.2
+  Category: Fade
+  Name: SoftShrink

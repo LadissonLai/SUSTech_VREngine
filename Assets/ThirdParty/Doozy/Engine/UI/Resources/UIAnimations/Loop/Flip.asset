@@ -1,0 +1,1357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42dff178cdcfb1740a46c868a9902c1e, type: 3}
+  m_Name: Flip
+  m_EditorClassIdentifier: 
+  AnimationNames:
+  - Balance10Horizontal
+  - Balance10HorizontalAndScale
+  - Balance10Vertical
+  - Balance10VerticalAndScale
+  - Balance70Horizontal
+  - Balance70Vertical
+  - Flip90Horizontal
+  - Flip90HorizontalFade
+  - Flip90Vertical
+  - Flip90VerticalFade
+  - FlipHorizontalAlt
+  - FlipHorizontalAndScale
+  - FlipVerticalAndScale
+  Database:
+  - {fileID: 114313193479069646}
+  - {fileID: 114746660889116348}
+  - {fileID: 114484965974609248}
+  - {fileID: 114181692988071762}
+  - {fileID: 114559545660617182}
+  - {fileID: 114056370771912804}
+  - {fileID: 114001725651767716}
+  - {fileID: 114743874226614174}
+  - {fileID: 114076281079194718}
+  - {fileID: 114359991195032944}
+  - {fileID: 114711785161074564}
+  - {fileID: 114352487926499238}
+  - {fileID: 114978751177006728}
+  DatabaseName: Flip
+  DataType: 3
+--- !u!114 &114001725651767716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Flip90Horizontal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -90, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: Flip90Horizontal
+--- !u!114 &114056370771912804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Balance70Vertical
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 70, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: Balance70Vertical
+--- !u!114 &114076281079194718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Flip90Vertical
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 90, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: Flip90Vertical
+--- !u!114 &114181692988071762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Balance10VerticalAndScale
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.1, y: 1.1, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 27
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: Balance10VerticalAndScale
+--- !u!114 &114313193479069646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Balance10Horizontal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: Balance10Horizontal
+--- !u!114 &114352487926499238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: FlipHorizontalAndScale
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -90, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.6
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0.2, y: 1, z: 1}
+      To: {x: 1.2, y: 1.2, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.6
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: FlipHorizontalAndScale
+--- !u!114 &114359991195032944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Flip90VerticalFade
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 90, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 1
+      From: 0.5
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.5
+  Category: Flip
+  Name: Flip90VerticalFade
+--- !u!114 &114484965974609248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Balance10Vertical
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: Balance10Vertical
+--- !u!114 &114559545660617182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Balance70Horizontal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 70, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: Balance70Horizontal
+--- !u!114 &114711785161074564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: FlipHorizontalAlt
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -90, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.6
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 1, y: 0.2, z: 1}
+      To: {x: 1.2, y: 1.2, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.6
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: FlipHorizontalAlt
+--- !u!114 &114743874226614174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Flip90HorizontalFade
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -90, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 1
+      From: 0.5
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.5
+  Category: Flip
+  Name: Flip90HorizontalFade
+--- !u!114 &114746660889116348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Balance10HorizontalAndScale
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.1, y: 1.1, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 27
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: Balance10HorizontalAndScale
+--- !u!114 &114978751177006728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: FlipVerticalAndScale
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 2
+    Rotate:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 90, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.6
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0.2, y: 1, z: 1}
+      To: {x: 1.2, y: 1.2, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 2
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.6
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+  Category: Flip
+  Name: FlipVerticalAndScale

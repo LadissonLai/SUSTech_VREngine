@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcaf04441179087429686450f0f7af41, type: 3}
+  m_Name: DoozyWindowSettings
+  m_EditorClassIdentifier: 
+  DynamicToolbarExpanded: 1
+  DynamicToolbarButtonHeight: 48
+  DynamicToolbarButtonIconSize: 16
+  DynamicToolbarButtonSpacing: 2
+  DynamicToolbarButtonWidth: 64
+  DynamicToolbarPadding: 4
+  ToolbarAnimationSpeed: 2
+  ToolbarButtonHeight: 32
+  ToolbarCollapsedWidth: 32
+  ToolbarExpandCollapseButtonHeight: 24
+  ToolbarExpandedWidth: 128
+  ToolbarHeaderHeight: 64
+  ToolbarShadowWidth: 4
+  WindowViewContentHorizontalPadding: 8
+  EditorPrefsKeyWindowCurrentView: Doozy.Window.CurrentView
+  EditorPrefsKeyWindowToolbarState: Doozy.Window.ToolbarState
+  EditorPrefsKeyWindowCurrentTheme: Doozy.Window.CurrentTheme
+  WindowTitle: DoozyUI

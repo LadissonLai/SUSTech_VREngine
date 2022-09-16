@@ -1,0 +1,2387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42dff178cdcfb1740a46c868a9902c1e, type: 3}
+  m_Name: Slide
+  m_EditorClassIdentifier: 
+  AnimationNames:
+  - BumpLeft
+  - BumpRight
+  - FlopLeft
+  - FlopRight
+  - GrowLeft
+  - GrowLeftAlt
+  - GrowRight
+  - GrowRightAlt
+  - RotateLeft
+  - RotateRight
+  - RushLeft
+  - RushRight
+  - SimpleLeftFast
+  - SimpleLeftNormal
+  - SimpleRightFast
+  - SimpleRightNormal
+  - SoftRotateLeft
+  - SoftRotateRight
+  - VibrateFromCenter
+  - VibrateLeft
+  - VibrateRight
+  - WiggleLeft
+  - WiggleRight
+  Database:
+  - {fileID: 114162542709556058}
+  - {fileID: 114789725946347876}
+  - {fileID: 114627117331557646}
+  - {fileID: 114124060751391946}
+  - {fileID: 114407085012902814}
+  - {fileID: 114167876519341304}
+  - {fileID: 114638312249801346}
+  - {fileID: 114342051864554158}
+  - {fileID: 114439124325569232}
+  - {fileID: 114254955832386782}
+  - {fileID: 114399384294813200}
+  - {fileID: 114912370660270006}
+  - {fileID: 114206140968321866}
+  - {fileID: 114751367693240086}
+  - {fileID: 114937558995650014}
+  - {fileID: 114161920520500206}
+  - {fileID: 114051899906171862}
+  - {fileID: 114070825024311504}
+  - {fileID: 114170396865314654}
+  - {fileID: 114494763288681192}
+  - {fileID: 114655898599837268}
+  - {fileID: 114086892912404148}
+  - {fileID: 114374022327089732}
+  DatabaseName: Slide
+  DataType: 4
+--- !u!114 &114051899906171862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: SoftRotateLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -40, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 10}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: SoftRotateLeft
+--- !u!114 &114070825024311504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: SoftRotateRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 40, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: -10}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: SoftRotateRight
+--- !u!114 &114086892912404148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: WiggleLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -5, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 60, z: -15}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0.15, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: WiggleLeft
+--- !u!114 &114124060751391946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: FlopRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 15, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 30, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.15
+      Duration: 0.15
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: FlopRight
+--- !u!114 &114161920520500206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: SimpleRightNormal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 40, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.3
+    Rotate:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 15, y: 0, z: -30}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: SimpleRightNormal
+--- !u!114 &114162542709556058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: BumpLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -25, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 10}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.05
+      Duration: 0.1
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0.2, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.1
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: BumpLeft
+--- !u!114 &114167876519341304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: GrowLeftAlt
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 20, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+    Rotate:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 30, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.4
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: GrowLeftAlt
+--- !u!114 &114170396865314654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: VibrateFromCenter
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -40, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 15, y: 0, z: 15}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: VibrateFromCenter
+--- !u!114 &114206140968321866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: SimpleLeftFast
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -40, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.15
+    Rotate:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 15, y: 0, z: -30}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.05
+      Duration: 0.1
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: SimpleLeftFast
+--- !u!114 &114254955832386782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: RotateRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 20, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 2
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: -5}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.15, y: 0.15, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: RotateRight
+--- !u!114 &114342051864554158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: GrowRightAlt
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -20, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+    Rotate:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 30, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.4
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: GrowRightAlt
+--- !u!114 &114374022327089732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: WiggleRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 5, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 60, z: 15}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0.15, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: WiggleRight
+--- !u!114 &114399384294813200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: RushLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -20, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.2, y: 0.2, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: RushLeft
+--- !u!114 &114407085012902814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: GrowLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 25, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 30, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: GrowLeft
+--- !u!114 &114439124325569232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: RotateLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -20, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 2
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.15, y: 0.15, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: RotateLeft
+--- !u!114 &114494763288681192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: VibrateLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 15, y: 0, z: 15}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Scale:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: VibrateLeft
+--- !u!114 &114627117331557646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: FlopLeft
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -15, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 30, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.15
+      Duration: 0.15
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: FlopLeft
+--- !u!114 &114638312249801346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: GrowRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -25, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 30, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: GrowRight
+--- !u!114 &114655898599837268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: VibrateRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -15, y: 0, z: -15}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Scale:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: VibrateRight
+--- !u!114 &114751367693240086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: SimpleLeftNormal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -40, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.3
+    Rotate:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 15, y: 0, z: -30}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: SimpleLeftNormal
+--- !u!114 &114789725946347876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: BumpRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 25, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: -10}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.1
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0.2, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.2
+      Duration: 0.1
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: BumpRight
+--- !u!114 &114912370660270006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: RushRight
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 20, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 8
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 10, y: 0, z: -5}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.2, y: 0.2, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.2
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: RushRight
+--- !u!114 &114937558995650014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: SimpleRightFast
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 4
+    Move:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -40, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 12
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.154
+    Rotate:
+      AnimationType: 4
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 15, y: 0, z: -30}
+      UseCustomFromAndTo: 0
+      Vibrato: 4
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Scale:
+      AnimationType: 4
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: -0.1, y: 0.1, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 16
+      Elasticity: 0.5
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.05
+      Duration: 0.1
+    Fade:
+      AnimationType: 4
+      Enabled: 0
+      From: 0
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+  Category: Slide
+  Name: SimpleRightFast

@@ -1,0 +1,270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: prefabedMeshbakerObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d0d08bf5bb7cba4a84ec8974f8470a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderType: 1
+  resultPrefab: {fileID: 0}
+  resultSceneObject: {fileID: 0}
+  maxTilingBakeSize: 1024
+  doMultiMaterial: 0
+  fixOutOfBoundsUVs: 0
+  resultMaterial: {fileID: 2100000, guid: 71ee627d5d54dd841a3bb24bb8ec3d90, type: 2}
+  resultMaterials: []
+  atlasPadding: 1
+  resizePowerOfTwoTextures: 1
+  disableSourceRenderers: 0
+  outputOption: 3
+  customShaderPropNames: []
+  objsToMesh:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  extraMaterialsToIncludeInAtlases: []
+  prefabUVRects:
+  - x: 0.49951172
+    y: 0
+    width: 0.12402344
+    height: 0.24804688
+  - x: 0
+    y: 0
+    width: 0.49902344
+    height: 0.9980469
+  - x: 0.49951172
+    y: 0.49804688
+    width: 0.00048828125
+    height: 0.0009765625
+  - x: 0.5004883
+    y: 0.49804688
+    width: 0.00048828125
+    height: 0.0009765625
+  - x: 0.49951172
+    y: 0.24902344
+    width: 0.12402344
+    height: 0.24804688
+  - x: 0.50146484
+    y: 0.49804688
+    width: 0.00048828125
+    height: 0.0009765625
+  materials:
+  - {fileID: 2100000, guid: 834a4ceaad11f9f7a0001fbb4ada8c59, type: 2}
+  - {fileID: 2100000, guid: ca49380a71a2bb64c830d06bd421b9d1, type: 2}
+  - {fileID: 2100000, guid: 6b6b8ddc63cc3a048a48a8e66837be11, type: 2}
+  - {fileID: 2100000, guid: fb5ca79f4f7ef6c429d6e1cf881efbcd, type: 2}
+  - {fileID: 2100000, guid: 6024181b06bb786408eb8daf815d0df7, type: 2}
+  - {fileID: 2100000, guid: c2a26e9085c36924589607803ad52b25, type: 2}
+  objectsInCombinedMesh:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  mbDynamicObjectsInCombinedMesh:
+  - go: {fileID: 0}
+    vertIdx: 0
+    numVerts: 1423
+    bonesIdx: 0
+    numBones: 24
+    submeshTriIdxs: 00000000
+    submeshNumTris: 48150000
+    obUVRects: []
+    targetSubmeshIdxs: 00000000
+    uvRects:
+    - x: 0.49951172
+      y: 0
+      width: 0.12402344
+      height: 0.24804688
+    sharedMesh: {fileID: 4300000, guid: 737fb44d7750940ffb196cfb198acb42, type: 3}
+    _beingDeleted: 0
+    _triangleIdxAdjustment: 0
+    obUVRect:
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+  - go: {fileID: 0}
+    vertIdx: 1423
+    numVerts: 3074
+    bonesIdx: 24
+    numBones: 54
+    submeshTriIdxs: 48150000
+    submeshNumTris: 1c2f0000
+    obUVRects: []
+    targetSubmeshIdxs: 00000000
+    uvRects:
+    - x: 0
+      y: 0
+      width: 0.49902344
+      height: 0.9980469
+    sharedMesh: {fileID: 4300000, guid: 449b48f7eb5d87a4baaa5fb73f875a59, type: 3}
+    _beingDeleted: 0
+    _triangleIdxAdjustment: 0
+    obUVRect:
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+  - go: {fileID: 0}
+    vertIdx: 4497
+    numVerts: 2887
+    bonesIdx: 78
+    numBones: 1
+    submeshTriIdxs: 64440000
+    submeshNumTris: 30360000
+    obUVRects: []
+    targetSubmeshIdxs: 00000000
+    uvRects:
+    - x: 0.49951172
+      y: 0.49804688
+      width: 0.00048828125
+      height: 0.0009765625
+    sharedMesh: {fileID: 4300000, guid: 24d24b792ed653946925885e530075a4, type: 2}
+    _beingDeleted: 0
+    _triangleIdxAdjustment: 0
+    obUVRect:
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+  - go: {fileID: 0}
+    vertIdx: 7384
+    numVerts: 721
+    bonesIdx: 79
+    numBones: 1
+    submeshTriIdxs: 947a0000
+    submeshNumTris: 38040000
+    obUVRects: []
+    targetSubmeshIdxs: 00000000
+    uvRects:
+    - x: 0.5004883
+      y: 0.49804688
+      width: 0.00048828125
+      height: 0.0009765625
+    sharedMesh: {fileID: 4300000, guid: 9554f957ad0d06a44a1c8e32f7e76e3e, type: 2}
+    _beingDeleted: 0
+    _triangleIdxAdjustment: 0
+    obUVRect:
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+  - go: {fileID: 0}
+    vertIdx: 8105
+    numVerts: 3074
+    bonesIdx: 80
+    numBones: 54
+    submeshTriIdxs: cc7e0000
+    submeshNumTris: 1c2f0000
+    obUVRects: []
+    targetSubmeshIdxs: 00000000
+    uvRects:
+    - x: 0.49951172
+      y: 0.24902344
+      width: 0.12402344
+      height: 0.24804688
+    sharedMesh: {fileID: 4300000, guid: 449b48f7eb5d87a4baaa5fb73f875a59, type: 3}
+    _beingDeleted: 0
+    _triangleIdxAdjustment: 0
+    obUVRect:
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+  - go: {fileID: 0}
+    vertIdx: 11179
+    numVerts: 457
+    bonesIdx: 134
+    numBones: 1
+    submeshTriIdxs: e8ad0000
+    submeshNumTris: f4080000
+    obUVRects: []
+    targetSubmeshIdxs: 00000000
+    uvRects:
+    - x: 0.50146484
+      y: 0.49804688
+      width: 0.00048828125
+      height: 0.0009765625
+    sharedMesh: {fileID: 4300000, guid: ea3802a52aba025488a49e86288d08bf, type: 2}
+    _beingDeleted: 0
+    _triangleIdxAdjustment: 0
+    obUVRect:
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+  - go: {fileID: 0}
+    vertIdx: 11636
+    numVerts: 1423
+    bonesIdx: 135
+    numBones: 24
+    submeshTriIdxs: dcb60000
+    submeshNumTris: 48150000
+    obUVRects: []
+    targetSubmeshIdxs: 00000000
+    uvRects:
+    - x: 0.49951172
+      y: 0
+      width: 0.12402344
+      height: 0.24804688
+    sharedMesh: {fileID: 4300000, guid: 737fb44d7750940ffb196cfb198acb42, type: 3}
+    _beingDeleted: 0
+    _triangleIdxAdjustment: 0
+    obUVRect:
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

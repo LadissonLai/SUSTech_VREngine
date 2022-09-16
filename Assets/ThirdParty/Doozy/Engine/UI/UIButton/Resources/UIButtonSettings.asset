@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e613985aa83548b88a79c1663775dcbe, type: 3}
+  m_Name: UIButtonSettings
+  m_EditorClassIdentifier: 
+  database: {fileID: 11400000, guid: 2d2b8b37346060846b1c1c56f467324f, type: 2}
+  InputMode: 2
+  KeyCode: 13
+  KeyCodeAlt: 32
+  ClickMode: 0
+  AllowMultipleClicks: 1
+  DeselectButtonAfterClick: 0
+  EnableAlternateInputs: 1
+  ShowNormalLoopAnimation: 1
+  ShowOnButtonDeselected: 1
+  ShowOnButtonSelected: 1
+  ShowOnClick: 1
+  ShowOnDoubleClick: 1
+  ShowOnLongClick: 1
+  ShowOnRightClick: 1
+  ShowOnPointerDown: 1
+  ShowOnPointerEnter: 1
+  ShowOnPointerExit: 1
+  ShowOnPointerUp: 1
+  ShowSelectedLoopAnimation: 1
+  DisableButtonBetweenClicksInterval: 0.2
+  RenamePrefix: 'Button - '
+  RenameSuffix: 
+  VirtualButtonName: Submit
+  VirtualButtonNameAlt: Jump

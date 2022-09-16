@@ -1,0 +1,2078 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42dff178cdcfb1740a46c868a9902c1e, type: 3}
+  m_Name: Organic
+  m_EditorClassIdentifier: 
+  AnimationNames:
+  - Drop10Fast
+  - Drop10Normal
+  - Drop10Slow
+  - DropAndBounceFast
+  - DropAndBounceNormal
+  - DropAndBounceSlow
+  - DropStop10Fast
+  - DropStop10Normal
+  - DropStop10Slow
+  - ElasticDropAndBounceFast
+  - ElasticDropAndBounceNormal
+  - ElasticDropAndBounceSlow
+  - Jump10Fast
+  - Jump10Normal
+  - Jump10Slow
+  - JumpStop10Fast
+  - JumpStop10Normal
+  - JumpStop10Slow
+  - ScaleIn
+  - ScaleOut
+  Database:
+  - {fileID: 114692992200105492}
+  - {fileID: 114313876710368922}
+  - {fileID: 114041893691255158}
+  - {fileID: 114234039422632728}
+  - {fileID: 114685896160671764}
+  - {fileID: 114621306235405022}
+  - {fileID: 114322672025085020}
+  - {fileID: 114479127680927838}
+  - {fileID: 114885474578085070}
+  - {fileID: 114927727814505776}
+  - {fileID: 114715566060784358}
+  - {fileID: 114140774954585986}
+  - {fileID: 114869665853040812}
+  - {fileID: 114062083615923488}
+  - {fileID: 114004257582958146}
+  - {fileID: 114037358179727482}
+  - {fileID: 114528304801655232}
+  - {fileID: 114556976703622378}
+  - {fileID: 114581445202849758}
+  - {fileID: 114869602304601968}
+  DatabaseName: Organic
+  DataType: 3
+--- !u!114 &114004257582958146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Jump10Slow
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1.6
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: Jump10Slow
+--- !u!114 &114037358179727482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: JumpStop10Fast
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 30
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: JumpStop10Fast
+--- !u!114 &114041893691255158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Drop10Slow
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1.6
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: Drop10Slow
+--- !u!114 &114062083615923488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Jump10Normal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: Jump10Normal
+--- !u!114 &114140774954585986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: ElasticDropAndBounceSlow
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -40, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 5
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 1, y: 1, z: 1}
+      To: {x: 1, y: 0.95, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 31
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.5
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: ElasticDropAndBounceSlow
+--- !u!114 &114234039422632728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: DropAndBounceFast
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -40, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 5
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: DropAndBounceFast
+--- !u!114 &114313876710368922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Drop10Normal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: Drop10Normal
+--- !u!114 &114322672025085020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: DropStop10Fast
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 30
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: DropStop10Fast
+--- !u!114 &114479127680927838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: DropStop10Normal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 30
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: DropStop10Normal
+--- !u!114 &114528304801655232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: JumpStop10Normal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 30
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: JumpStop10Normal
+--- !u!114 &114556976703622378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: JumpStop10Slow
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 30
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1.6
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: JumpStop10Slow
+--- !u!114 &114581445202849758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: ScaleIn
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 30
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1.6
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0.8, y: 0.8, z: 1}
+      To: {x: 1, y: 1, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 35
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: ScaleIn
+--- !u!114 &114621306235405022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: DropAndBounceSlow
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -40, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 5
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.5
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: DropAndBounceSlow
+--- !u!114 &114685896160671764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: DropAndBounceNormal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -40, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 5
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: DropAndBounceNormal
+--- !u!114 &114692992200105492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Drop10Fast
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: Drop10Fast
+--- !u!114 &114715566060784358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: ElasticDropAndBounceNormal
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -40, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 5
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.3
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 1, y: 1, z: 1}
+      To: {x: 1, y: 0.95, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 31
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.4
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: ElasticDropAndBounceNormal
+--- !u!114 &114869602304601968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: ScaleOut
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 30
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1.6
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 1, y: 1, z: 1}
+      To: {x: 1.2, y: 1.2, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 35
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: ScaleOut
+--- !u!114 &114869665853040812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: Jump10Fast
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 29
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.4
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: Jump10Fast
+--- !u!114 &114885474578085070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: DropStop10Slow
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -10, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 30
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1.6
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0.95, y: 0.95, z: 1}
+      To: {x: 1.05, y: 1.05, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 10
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: DropStop10Slow
+--- !u!114 &114927727814505776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe5b16c60b843134eb75c4ba6a7b6f52, type: 3}
+  m_Name: ElasticDropAndBounceFast
+  m_EditorClassIdentifier: 
+  Animation:
+    AnimationType: 3
+    Move:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: -40, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      Direction: 0
+      CustomPosition: {x: 0, y: 0, z: 0}
+      EaseType: 0
+      Ease: 5
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.2
+    Rotate:
+      AnimationType: 3
+      Enabled: 0
+      From: {x: 0, y: 0, z: 0}
+      To: {x: 0, y: 0, z: 0}
+      By: {x: 0, y: 0, z: 5}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      RotateMode: 0
+      EaseType: 0
+      Ease: 25
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 1
+    Scale:
+      AnimationType: 3
+      Enabled: 1
+      From: {x: 1, y: 1, z: 1}
+      To: {x: 1, y: 0.95, z: 1}
+      By: {x: 0, y: 0, z: 0}
+      UseCustomFromAndTo: 0
+      Vibrato: 10
+      Elasticity: 1
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 31
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0.1
+      Duration: 0.3
+    Fade:
+      AnimationType: 3
+      Enabled: 0
+      From: 0.4
+      To: 1
+      By: 0.5
+      UseCustomFromAndTo: 0
+      NumberOfLoops: -1
+      LoopType: 1
+      EaseType: 0
+      Ease: 1
+      AnimationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      StartDelay: 0
+      Duration: 0.8
+  Category: Organic
+  Name: ElasticDropAndBounceFast

@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 499468296, guid: 0f20771f34eefe549a7337a23c679743, type: 3}
+  m_Name: TextureBakeResult
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 1
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: d76898e20fbb4d345b4606f98f5307f4, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    srcObjName: Cube2
+    textureArraySliceIdx: 0
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.5
+      width: 3
+      height: 2
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 4
+  - material: {fileID: 2100000, guid: 5a6823c7766599549af1fd87503dc15d, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    srcObjName: Cube4
+    textureArraySliceIdx: 1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 4
+  - material: {fileID: 2100000, guid: 4cc14f2d300d0c445b1ff0006e0737c8, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    srcObjName: Cube3
+    textureArraySliceIdx: 2
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 4
+  - material: {fileID: 2100000, guid: feccc9b89c26805468d1bdcb46344626, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    srcObjName: Cube1
+    textureArraySliceIdx: 3
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 4
+  resultMaterials: []
+  resultMaterialsTexArray:
+  - combinedMaterial: {fileID: 2100000, guid: adc31802d9baa1e4e85deb3eb88057a6, type: 2}
+    slices:
+    - considerMeshUVs: 0
+      sourceMaterials:
+      - sourceMaterial: {fileID: 2100000, guid: d76898e20fbb4d345b4606f98f5307f4,
+          type: 2}
+        renderer: {fileID: 0}
+    - considerMeshUVs: 0
+      sourceMaterials:
+      - sourceMaterial: {fileID: 2100000, guid: 5a6823c7766599549af1fd87503dc15d,
+          type: 2}
+        renderer: {fileID: 0}
+    - considerMeshUVs: 0
+      sourceMaterials:
+      - sourceMaterial: {fileID: 2100000, guid: 4cc14f2d300d0c445b1ff0006e0737c8,
+          type: 2}
+        renderer: {fileID: 0}
+    - considerMeshUVs: 0
+      sourceMaterials:
+      - sourceMaterial: {fileID: 2100000, guid: feccc9b89c26805468d1bdcb46344626,
+          type: 2}
+        renderer: {fileID: 0}
+    textureProperties:
+    - texPropertyName: _MainTex
+      formats:
+      - texFromatSetName: Standalone
+        texArray: {fileID: 0}
+  doMultiMaterial: 0

@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 499468296, guid: 0f20771f34eefe549a7337a23c679743, type: 3}
+  m_Name: combinedMaterial
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: 0abcbdfebcf554547998a4df82cae2bc, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.5004883
+      y: 0.0009765625
+      width: 0.24902344
+      height: 0.49804688
+    srcObjName: rooT
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: fb5ca79f4f7ef6c429d6e1cf881efbcd, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8774414
+      y: 0.0009765625
+      width: 0.0009765625
+      height: 0.001953125
+    srcObjName: MeshBaker1_mesh
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: ca49380a71a2bb64c830d06bd421b9d1, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.00048828125
+      y: 0.0009765625
+      width: 0.49902344
+      height: 0.9980469
+    srcObjName: Bip001 Pelvis
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: c2a26e9085c36924589607803ad52b25, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.87939453
+      y: 0.0009765625
+      width: 0.0009765625
+      height: 0.001953125
+    srcObjName: MeshBaker1_mesh
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 6024181b06bb786408eb8daf815d0df7, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.7504883
+      y: 0.0009765625
+      width: 0.12402344
+      height: 0.24804688
+    srcObjName: Bip001 Pelvis
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  - material: {fileID: 2100000, guid: 6b6b8ddc63cc3a048a48a8e66837be11, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.8754883
+      y: 0.0009765625
+      width: 0.0009765625
+      height: 0.001953125
+    srcObjName: MeshBaker1_mesh
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 0
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: 1630f7ea0126174458ca61ba6bf19aee, type: 2}
+    considerMeshUVs: 0
+    sourceMaterials:
+    - {fileID: 2100000, guid: 0abcbdfebcf554547998a4df82cae2bc, type: 2}
+    - {fileID: 2100000, guid: fb5ca79f4f7ef6c429d6e1cf881efbcd, type: 2}
+    - {fileID: 2100000, guid: ca49380a71a2bb64c830d06bd421b9d1, type: 2}
+    - {fileID: 2100000, guid: c2a26e9085c36924589607803ad52b25, type: 2}
+    - {fileID: 2100000, guid: 6024181b06bb786408eb8daf815d0df7, type: 2}
+    - {fileID: 2100000, guid: 6b6b8ddc63cc3a048a48a8e66837be11, type: 2}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 0

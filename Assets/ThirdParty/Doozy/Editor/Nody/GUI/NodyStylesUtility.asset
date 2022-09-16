@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402c5029a8464fcab707abf3607c3776, type: 3}
+  m_Name: NodyStylesUtility
+  m_EditorClassIdentifier: 
+  Namespace: Doozy.Nody.Editor
+  ClassName: Styles
+  EnumName: StyleName
+  DarkSkin: {fileID: 11400000, guid: 7d53ff58b18b7094594ad084e02e40c4, type: 2}
+  LightSkin: {fileID: 11400000, guid: ccd0b0ca715185049901f3123837be8b, type: 2}

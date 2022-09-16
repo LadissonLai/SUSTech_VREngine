@@ -1,0 +1,1642 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4300000
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BareTorso(Clone)
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 546
+    topology: 0
+    firstVertex: 0
+    vertexCount: 121
+    localAABB:
+      m_Center: {x: 0.0000027369242, y: -0.0005316826, z: 0.028054614}
+      m_Extent: {x: 0.005666785, y: 0.002829419, z: 0.005270291}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose:
+  - e00: 1
+    e01: 2.4670064e-18
+    e02: -4.4387888e-16
+    e03: -7.1629907e-19
+    e10: -2.4691463e-18
+    e11: -0.99993825
+    e12: -0.011120153
+    e13: -0.00045857095
+    e20: -4.44264e-16
+    e21: 0.011129802
+    e22: -1.0008059
+    e23: 0.00010532705
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 2.4712902e-18
+    e02: -9.176173e-24
+    e03: 0.005110126
+    e10: -2.47129e-18
+    e11: 1
+    e12: -0.0000021610888
+    e13: -0.0015581711
+    e20: 3.8976213e-24
+    e21: 0.0000021615072
+    e22: 1.0001941
+    e23: -0.0019595427
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1
+    e01: -0.000000045398096
+    e02: -0.00000014388513
+    e03: -0.006425605
+    e10: -6.8278716e-12
+    e11: 0.95374817
+    e12: -0.30087572
+    e13: 0.007460301
+    e20: 0.00000015099559
+    e21: -0.3010874
+    e22: -0.9544195
+    e23: 0.0135650085
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: 2.471289e-18
+    e02: 9.667429e-23
+    e03: 0.006696599
+    e10: -2.4712887e-18
+    e11: 1
+    e12: 0.000019258012
+    e13: -0.012482568
+    e20: -4.8953177e-23
+    e21: -0.00001922466
+    e22: 0.9982685
+    e23: -0.025392754
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1
+    e01: 8.531804e-13
+    e02: 0.000000087347004
+    e03: -0.0038344818
+    e10: 4.3368087e-17
+    e11: -1.0000001
+    e12: 0.000009767799
+    e13: -0.029520115
+    e20: 0.00000008742277
+    e21: 0.00000977627
+    e22: 1.0008678
+    e23: -0.011536204
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.9996566
+    e01: -0.00000025320367
+    e02: -0.026228888
+    e03: -0.005056984
+    e10: 0.00000019658005
+    e11: 1
+    e12: -0.0000021613964
+    e13: -0.001558172
+    e20: 0.026233945
+    e21: 0.0000021559138
+    e22: 0.9998493
+    e23: -0.0020929258
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.99965644
+    e01: 0.00789275
+    e02: 0.025015345
+    e03: 0.0060678646
+    e10: 0.0000011943946
+    e11: 0.95374846
+    e12: -0.3008755
+    e13: 0.007460288
+    e20: -0.02625151
+    e21: -0.30098346
+    e22: -0.9540906
+    e23: 0.013729014
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.9996566
+    e01: -0.00000025314546
+    e02: -0.026228884
+    e03: -0.0060271095
+    e10: 0.000000758247
+    e11: 1
+    e12: 0.000019247518
+    e13: -0.012482573
+    e20: 0.026183432
+    e21: -0.000019227424
+    e22: 0.99792427
+    e23: -0.02555934
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.9996566
+    e01: -0.0000002562304
+    e02: -0.02622882
+    e03: 0.0041354825
+    e10: -6.500356e-12
+    e11: -1.0000001
+    e12: 0.000009769292
+    e13: -0.029520111
+    e20: -0.026251553
+    e21: 0.000009774395
+    e22: 1.0005229
+    e23: -0.011431568
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 1
+    e01: -7.4251716e-11
+    e02: 0.00000002327718
+    e03: -2.3283064e-10
+    e10: -0.00000000464708
+    e11: 0.032666933
+    e12: 1.0003334
+    e13: -0.020754673
+    e20: -1.64313e-11
+    e21: -0.99946845
+    e22: 0.032638695
+    e23: -0.0011652656
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1
+    e01: 0.00000015121238
+    e02: 0.000000011636417
+    e03: -2.3283064e-10
+    e10: -0.000000011588358
+    e11: -0.018781587
+    e12: 1.0006915
+    e13: -0.025383908
+    e20: 0.00000015090586
+    e21: 0.99982417
+    e22: 0.018765306
+    e23: -0.00013822143
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1
+    e01: -0.00000014793997
+    e02: -0.00000002910167
+    e03: 4.656613e-10
+    e10: 0.000000003475642
+    e11: -0.18494116
+    e12: 0.9836043
+    e13: -0.02895372
+    e20: -0.0000001524107
+    e21: 0.9828062
+    e22: 0.18479107
+    e23: -0.0050195525
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1.0000001
+    e01: 0.00000014622607
+    e02: 0.000000039289816
+    e03: -9.895302e-10
+    e10: 2.3803426e-10
+    e11: -0.2507166
+    e12: 0.9689033
+    e13: -0.03301014
+    e20: 0.00000015110197
+    e21: 0.968164
+    e22: 0.25052524
+    e23: -0.0072561083
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1.0000001
+    e01: 0.00000014985571
+    e02: 0.000000020372362
+    e03: -4.0745363e-10
+    e10: -2.1237213e-10
+    e11: -0.13522257
+    e12: 0.99167645
+    e13: -0.035868734
+    e20: 0.00000015106589
+    e21: 0.99084544
+    e22: 0.13510923
+    e23: -0.0030689733
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1.0000001
+    e01: -0.00000013724389
+    e02: 0.00000006257116
+    e03: -0.0000000038999133
+    e10: 0.0000000011557089
+    e11: 0.41760287
+    e12: 0.9094144
+    e13: -0.04600899
+    e20: -0.0000001513908
+    e21: 0.90890676
+    e22: -0.41736975
+    e23: 0.025578579
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -1
+    e01: 0.000000051383488
+    e02: -0.00000006985012
+    e03: 0.0000000040163286
+    e10: 6.394871e-10
+    e11: 0.8102881
+    e12: 0.5865322
+    e13: -0.03235732
+    e20: 0.00000008678802
+    e21: 0.5866968
+    e22: -0.8105155
+    e23: 0.047646318
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.4205369
+    e01: 0.31005022
+    e02: -0.8533968
+    e03: 0.043616172
+    e10: -0.52587885
+    e11: 0.6830363
+    e12: 0.5072986
+    e13: -0.024591349
+    e20: 0.73956823
+    e21: 0.6615656
+    e22: -0.124089
+    e23: 0.010462851
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.9753588
+    e01: -0.15553282
+    e02: -0.1566109
+    e03: 0.0023290515
+    e10: -0.21655414
+    e11: 0.81237376
+    e12: 0.5418982
+    e13: -0.033207092
+    e20: 0.042957574
+    e21: 0.5626427
+    e22: -0.82630545
+    e23: 0.0447275
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.54701865
+    e01: 0.7283165
+    e02: -0.41307098
+    e03: 0.024975674
+    e10: 0.52647966
+    e11: 0.6828966
+    e12: 0.5068636
+    e13: -0.024571106
+    e20: 0.6513239
+    e21: 0.05979786
+    e22: -0.7570966
+    e23: 0.03725863
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.9740021
+    e01: 0.1415448
+    e02: 0.17702924
+    e03: -0.0034361156
+    e10: 0.21654919
+    e11: 0.8123744
+    e12: 0.541899
+    e13: -0.0332071
+    e20: -0.067132056
+    e21: 0.5663234
+    e22: -0.8221633
+    e23: 0.044655763
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.07977433
+    e01: 0.9877717
+    e02: 0.13405891
+    e03: -0.0033768625
+    e10: -0.9957366
+    e11: 0.072706506
+    e12: 0.05681663
+    e13: -0.0029816485
+    e20: 0.046413586
+    e21: -0.13813491
+    e22: 0.99018526
+    e23: -0.03201867
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.94028926
+    e01: 0.2095336
+    e02: 0.2684704
+    e03: -0.01329441
+    e10: -0.230221
+    e11: 0.1906391
+    e12: -0.9551126
+    e13: 0.02998935
+    e20: -0.25109813
+    e21: -0.95908326
+    e22: -0.13090673
+    e23: 0.0024356267
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.99369746
+    e01: 0.091959886
+    e02: 0.064152464
+    e03: -0.0083616655
+    e10: -0.09029507
+    e11: -0.31635928
+    e12: -0.94514906
+    e13: 0.02369659
+    e20: -0.0665752
+    e21: -0.94434124
+    e22: 0.32244912
+    e23: -0.00787347
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.98402786
+    e01: -0.07088739
+    e02: -0.163434
+    e03: -0.0040600146
+    e10: 0.17826645
+    e11: -0.39110723
+    e12: -0.90369564
+    e13: 0.01840347
+    e20: 0.00014033285
+    e21: -0.91785717
+    e22: 0.39726394
+    e23: -0.008812143
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.07869492
+    e01: -0.35778153
+    e02: -0.93128765
+    e03: 0.029650604
+    e10: 0.9957673
+    e11: 0.07278032
+    e12: 0.056182798
+    e13: -0.0029611671
+    e20: 0.047647998
+    e21: -0.931176
+    e22: 0.36176488
+    e23: -0.012536762
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.93328774
+    e01: 0.32107282
+    e02: -0.16103618
+    e03: 0.0100808125
+    e10: 0.23037735
+    e11: 0.19063139
+    e12: -0.9550762
+    e13: 0.02998738
+    e20: -0.27574027
+    e21: -0.92775273
+    e22: -0.2516901
+    e23: 0.009008856
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.9916329
+    e01: 0.05960426
+    e02: -0.11460713
+    e03: 0.009506948
+    e10: 0.090219975
+    e11: -0.3163616
+    e12: -0.9451553
+    e13: 0.023697255
+    e20: -0.09252803
+    e21: -0.94692653
+    e22: 0.308122
+    e23: -0.0064414567
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.98368025
+    e01: 0.09494045
+    e02: 0.15297073
+    e03: 0.004289465
+    e10: -0.17827982
+    e11: -0.39110607
+    e12: -0.9036932
+    e13: 0.018403517
+    e20: -0.025954174
+    e21: -0.91568434
+    e22: 0.40141594
+    e23: -0.008702634
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.9525364
+    e01: 0.2633798
+    e02: 0.1527953
+    e03: -0.005159174
+    e10: -0.17878383
+    e11: -0.07706187
+    e12: -0.98171604
+    e13: 0.021513324
+    e20: -0.24658215
+    e21: -0.9616291
+    e22: 0.12039109
+    e23: -0.003251342
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.9771757
+    e01: 0.13378932
+    e02: 0.16515706
+    e03: -0.005522795
+    e10: -0.12772954
+    e11: 0.25221154
+    e12: -0.96004
+    e13: 0.010817127
+    e20: -0.16996479
+    e21: -0.95847386
+    e22: -0.22918694
+    e23: 0.0010740801
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.9935199
+    e01: 0.10895257
+    e02: 0.03241938
+    e03: -0.0053102933
+    e10: -0.113680914
+    e11: -0.9519486
+    e12: -0.28461456
+    e13: 0.0014599825
+    e20: -0.00014802645
+    e21: -0.28666475
+    e22: 0.95886475
+    e23: -0.0014326484
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.94576526
+    e01: 0.26165032
+    e02: -0.1927021
+    e03: 0.0060941125
+    e10: 0.17871009
+    e11: -0.07706268
+    e12: -0.9817294
+    e13: 0.02151376
+    e20: -0.27148464
+    e21: -0.9620898
+    e22: 0.026101083
+    e23: -0.00018019648
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.97232
+    e01: 0.22262116
+    e02: -0.071024336
+    e03: 0.00475974
+    e10: 0.12787096
+    e11: 0.25220674
+    e12: -0.96002257
+    e13: 0.010816379
+    e20: -0.19566289
+    e21: -0.9418304
+    e22: -0.273489
+    e23: 0.0030026236
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: -0.9931899
+    e01: -0.101472974
+    e02: -0.05730471
+    e03: 0.005345705
+    e10: 0.11368104
+    e11: -0.9519476
+    e12: -0.28461775
+    e13: 0.0014599874
+    e20: -0.0256887
+    e21: -0.28940398
+    e22: 0.9576953
+    e23: -0.0012940608
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_BoneNameHashes: 746ed2bd67426f6c266ca65499093bf6a9db0a95047f60964551a9aefa34340ccae6056f5161eb7252c739ff1f635792aa6173c5c1e5ccc1a33ec061173d6d4da5a97878cb67ab2fc6947782433bd183e828cc3c1ec49da1d643e8f8475b23198b15c3c617537315a00cc153fde821c4351dc6c5011aea3e0dc680545620c93f088d048a3538803e
+  m_RootBoneNameHash: 3184684660
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000001000200000002000300030002000400030004000500050004000600050006000700070006000800080006000400070008000900090008000a0009000a000b00080004000c000c00040002000c00020001000d00070009000d000e0007000f000e000d000f0010000e000f00110010000f0012001100130012000f0013000f000d00130014001200100011001500100015001600120014001700120017001800110012001800110018001900150011001900150019001a00180017001b0018001b001c00190018001c001b001d001c001b001e001d001c001d001f001c001f00200019001c0020001a001900200020001f0021002000210022001a00200022001300230014002300170014001b0024001e001b002500240025002600240025002700260027002800260029002600280029002a0026002a002400260027002b0028002c002b0027002c0027002d002d00270025002e002c002d002e002d002f0030002f002300130030002300300031002f0031002e002f00310032002e002f002d0033002d00250033002f003300230023003300170033001b001700330025001b0030003400310030003500340013003500300035003600340035003700360036003700380036003800390037000a00380037000b000a003a00360039003a0039003b0038003b0039003c003a003b003c003b003d003e003c003d003e003d003f00380040003b0040003f003d0040003d003b0041000b003700410037003500410009000b0041000d00090013000d00410013004100350042003c003e0042003e004300440042004300440043004500460044004500470046004500470045004800470048004900470049004a004a0049004b004a004b004c004d004c004b004d004e004c004f0047004a004f005000470051004f004a0051004a004c004c004e0052004c0052005100530050004f00530054005000550054005300550053005600560053005700570053004f0057004f00510056005700580059005800570051005200590051005900570059005a00580055005b0054005b005000540055005c005b005c005d005b005d005e005b005b005e0050005d005f005e005c0060005d0061005d0060005f005d0061006100600062006200600063006200630064005f0046005e005e00460047005e00470050005f006500460046006500440066004400650066006500670065005f0068006500680067005f0061006800690063006000690060005c006a0069005c006a005c0055006a00550056006a0056006b006b00560058006b0058006c005a006c0058005a006d006c00490048006e0049006e006f004b0049006f004b006f00700070006f00000070000000030045006e004800450043006e0071006f006e006f007100000071006e00720072006e00430072004300730043003e0073002a00740024001e00240074001e00740075001e00750076001e0076001d0077001d00760077001f001d0078001f007700780021001f00
+  m_Skin:
+  - weight[0]: 0.5655087
+    weight[1]: 0.41053838
+    weight[2]: 0.023952888
+    weight[3]: 0
+    boneIndex[0]: 20
+    boneIndex[1]: 11
+    boneIndex[2]: 12
+    boneIndex[3]: 0
+  - weight[0]: 0.6989921
+    weight[1]: 0.28297412
+    weight[2]: 0.018033827
+    weight[3]: 0
+    boneIndex[0]: 20
+    boneIndex[1]: 11
+    boneIndex[2]: 12
+    boneIndex[3]: 0
+  - weight[0]: 0.98508984
+    weight[1]: 0.014910113
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 20
+    boneIndex[1]: 24
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.51767695
+    weight[1]: 0.48232314
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 21
+    boneIndex[1]: 20
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.97750944
+    weight[1]: 0.022490567
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 20
+    boneIndex[1]: 24
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.5161461
+    weight[1]: 0.48385388
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 21
+    boneIndex[1]: 20
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.915174
+    weight[1]: 0.06885458
+    weight[2]: 0.015971346
+    weight[3]: 0
+    boneIndex[0]: 20
+    boneIndex[1]: 24
+    boneIndex[2]: 11
+    boneIndex[3]: 0
+  - weight[0]: 0.5018264
+    weight[1]: 0.49817362
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 20
+    boneIndex[1]: 21
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.5250828
+    weight[1]: 0.3996017
+    weight[2]: 0.07531556
+    weight[3]: 0
+    boneIndex[0]: 11
+    boneIndex[1]: 20
+    boneIndex[2]: 12
+    boneIndex[3]: 0
+  - weight[0]: 0.7388333
+    weight[1]: 0.20763533
+    weight[2]: 0.053531405
+    weight[3]: 0
+    boneIndex[0]: 20
+    boneIndex[1]: 11
+    boneIndex[2]: 24
+    boneIndex[3]: 0
+  - weight[0]: 0.7623396
+    weight[1]: 0.08640001
+    weight[2]: 0.08639996
+    weight[3]: 0.06486054
+    boneIndex[0]: 11
+    boneIndex[1]: 24
+    boneIndex[2]: 20
+    boneIndex[3]: 12
+  - weight[0]: 0.4812029
+    weight[1]: 0.25629494
+    weight[2]: 0.25341588
+    weight[3]: 0.009086232
+    boneIndex[0]: 11
+    boneIndex[1]: 24
+    boneIndex[2]: 20
+    boneIndex[3]: 10
+  - weight[0]: 0.49681458
+    weight[1]: 0.43849936
+    weight[2]: 0.06468614
+    weight[3]: 0
+    boneIndex[0]: 20
+    boneIndex[1]: 11
+    boneIndex[2]: 12
+    boneIndex[3]: 0
+  - weight[0]: 0.7423251
+    weight[1]: 0.1540664
+    weight[2]: 0.082048684
+    weight[3]: 0.021559862
+    boneIndex[0]: 20
+    boneIndex[1]: 11
+    boneIndex[2]: 10
+    boneIndex[3]: 24
+  - weight[0]: 0.7977079
+    weight[1]: 0.18273169
+    weight[2]: 0.011066003
+    weight[3]: 0.008494416
+    boneIndex[0]: 21
+    boneIndex[1]: 20
+    boneIndex[2]: 10
+    boneIndex[3]: 11
+  - weight[0]: 0.47180924
+    weight[1]: 0.39708185
+    weight[2]: 0.13110895
+    weight[3]: 0
+    boneIndex[0]: 10
+    boneIndex[1]: 11
+    boneIndex[2]: 20
+    boneIndex[3]: 0
+  - weight[0]: 0.70868707
+    weight[1]: 0.16089384
+    weight[2]: 0.074827716
+    weight[3]: 0.05559129
+    boneIndex[0]: 21
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 20
+  - weight[0]: 0.74105674
+    weight[1]: 0.121001236
+    weight[2]: 0.08287256
+    weight[3]: 0.055069458
+    boneIndex[0]: 10
+    boneIndex[1]: 11
+    boneIndex[2]: 9
+    boneIndex[3]: 28
+  - weight[0]: 0.7430859
+    weight[1]: 0.15946265
+    weight[2]: 0.07604017
+    weight[3]: 0.021411221
+    boneIndex[0]: 10
+    boneIndex[1]: 11
+    boneIndex[2]: 9
+    boneIndex[3]: 28
+  - weight[0]: 0.69413453
+    weight[1]: 0.29115206
+    weight[2]: 0.007674058
+    weight[3]: 0.007039311
+    boneIndex[0]: 11
+    boneIndex[1]: 10
+    boneIndex[2]: 24
+    boneIndex[3]: 20
+  - weight[0]: 0.7372068
+    weight[1]: 0.19843012
+    weight[2]: 0.064363085
+    weight[3]: 0
+    boneIndex[0]: 10
+    boneIndex[1]: 11
+    boneIndex[2]: 9
+    boneIndex[3]: 0
+  - weight[0]: 0.47971863
+    weight[1]: 0.38263464
+    weight[2]: 0.086068705
+    weight[3]: 0.05157793
+    boneIndex[0]: 21
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.66924995
+    weight[1]: 0.2561483
+    weight[2]: 0.062987424
+    weight[3]: 0.011614333
+    boneIndex[0]: 21
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.68909144
+    weight[1]: 0.26803067
+    weight[2]: 0.03253881
+    weight[3]: 0.010339122
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 11
+    boneIndex[3]: 28
+  - weight[0]: 0.6342198
+    weight[1]: 0.21997897
+    weight[2]: 0.11546164
+    weight[3]: 0.030339573
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 28
+    boneIndex[3]: 11
+  - weight[0]: 0.58734983
+    weight[1]: 0.20762666
+    weight[2]: 0.18458484
+    weight[3]: 0.020438561
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 28
+    boneIndex[3]: 11
+  - weight[0]: 0.55895
+    weight[1]: 0.22124475
+    weight[2]: 0.1826327
+    weight[3]: 0.037172526
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 28
+    boneIndex[3]: 11
+  - weight[0]: 0.6358982
+    weight[1]: 0.19363493
+    weight[2]: 0.085233495
+    weight[3]: 0.0852334
+    boneIndex[0]: 9
+    boneIndex[1]: 10
+    boneIndex[2]: 31
+    boneIndex[3]: 28
+  - weight[0]: 0.4162812
+    weight[1]: 0.33059117
+    weight[2]: 0.2531277
+    weight[3]: 0
+    boneIndex[0]: 9
+    boneIndex[1]: 28
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.54722106
+    weight[1]: 0.29990172
+    weight[2]: 0.13918236
+    weight[3]: 0.0136948945
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 31
+  - weight[0]: 0.6368668
+    weight[1]: 0.1244758
+    weight[2]: 0.12447544
+    weight[3]: 0.11418187
+    boneIndex[0]: 9
+    boneIndex[1]: 31
+    boneIndex[2]: 28
+    boneIndex[3]: 10
+  - weight[0]: 0.6716765
+    weight[1]: 0.17997947
+    weight[2]: 0.14834404
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.5372078
+    weight[1]: 0.23244701
+    weight[2]: 0.23034522
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.715527
+    weight[1]: 0.17630918
+    weight[2]: 0.10816379
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.52720946
+    weight[1]: 0.25243664
+    weight[2]: 0.22035387
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.74308664
+    weight[1]: 0.15946408
+    weight[2]: 0.07603967
+    weight[3]: 0.021409594
+    boneIndex[0]: 10
+    boneIndex[1]: 11
+    boneIndex[2]: 9
+    boneIndex[3]: 31
+  - weight[0]: 0.54722244
+    weight[1]: 0.2999013
+    weight[2]: 0.13918163
+    weight[3]: 0.013694684
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 28
+  - weight[0]: 0.41628104
+    weight[1]: 0.3305916
+    weight[2]: 0.2531274
+    weight[3]: 0
+    boneIndex[0]: 9
+    boneIndex[1]: 31
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.6716785
+    weight[1]: 0.17997843
+    weight[2]: 0.14834309
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.53720886
+    weight[1]: 0.2324463
+    weight[2]: 0.23034483
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.71552885
+    weight[1]: 0.17630796
+    weight[2]: 0.10816315
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.8871794
+    weight[1]: 0.091274
+    weight[2]: 0.021546725
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.90926784
+    weight[1]: 0.080530375
+    weight[2]: 0.01020172
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.52720964
+    weight[1]: 0.2524362
+    weight[2]: 0.22035421
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.5589514
+    weight[1]: 0.22124408
+    weight[2]: 0.18263105
+    weight[3]: 0.03717352
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 31
+    boneIndex[3]: 11
+  - weight[0]: 0.5873509
+    weight[1]: 0.20762597
+    weight[2]: 0.1845836
+    weight[3]: 0.020439478
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 31
+    boneIndex[3]: 11
+  - weight[0]: 0.4797212
+    weight[1]: 0.3826327
+    weight[2]: 0.08606891
+    weight[3]: 0.05157715
+    boneIndex[0]: 25
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.53452635
+    weight[1]: 0.31841832
+    weight[2]: 0.087279715
+    weight[3]: 0.059775677
+    boneIndex[0]: 10
+    boneIndex[1]: 25
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.4716955
+    weight[1]: 0.39698923
+    weight[2]: 0.13131528
+    weight[3]: 0
+    boneIndex[0]: 10
+    boneIndex[1]: 11
+    boneIndex[2]: 24
+    boneIndex[3]: 0
+  - weight[0]: 0.7086342
+    weight[1]: 0.16088012
+    weight[2]: 0.074822664
+    weight[3]: 0.055663075
+    boneIndex[0]: 25
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 24
+  - weight[0]: 0.66925037
+    weight[1]: 0.25614753
+    weight[2]: 0.062987946
+    weight[3]: 0.011614139
+    boneIndex[0]: 25
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.63422054
+    weight[1]: 0.21997845
+    weight[2]: 0.11546077
+    weight[3]: 0.030340236
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 31
+    boneIndex[3]: 11
+  - weight[0]: 0.79756457
+    weight[1]: 0.18286762
+    weight[2]: 0.011065987
+    weight[3]: 0.008501921
+    boneIndex[0]: 25
+    boneIndex[1]: 24
+    boneIndex[2]: 10
+    boneIndex[3]: 11
+  - weight[0]: 0.74347144
+    weight[1]: 0.15413274
+    weight[2]: 0.08207787
+    weight[3]: 0.020318048
+    boneIndex[0]: 24
+    boneIndex[1]: 11
+    boneIndex[2]: 10
+    boneIndex[3]: 20
+  - weight[0]: 0.47832027
+    weight[1]: 0.4747897
+    weight[2]: 0.04689003
+    weight[3]: 0
+    boneIndex[0]: 24
+    boneIndex[1]: 25
+    boneIndex[2]: 11
+    boneIndex[3]: 0
+  - weight[0]: 0.88626367
+    weight[1]: 0.06291812
+    weight[2]: 0.05081817
+    weight[3]: 0
+    boneIndex[0]: 24
+    boneIndex[1]: 20
+    boneIndex[2]: 11
+    boneIndex[3]: 0
+  - weight[0]: 0.6924163
+    weight[1]: 0.19354197
+    weight[2]: 0.11404174
+    weight[3]: 0
+    boneIndex[0]: 24
+    boneIndex[1]: 20
+    boneIndex[2]: 11
+    boneIndex[3]: 0
+  - weight[0]: 0.916271
+    weight[1]: 0.06768069
+    weight[2]: 0.016048253
+    weight[3]: 0
+    boneIndex[0]: 24
+    boneIndex[1]: 20
+    boneIndex[2]: 11
+    boneIndex[3]: 0
+  - weight[0]: 0.51609904
+    weight[1]: 0.48390096
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 25
+    boneIndex[1]: 24
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.97905636
+    weight[1]: 0.020943608
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 24
+    boneIndex[1]: 20
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.517618
+    weight[1]: 0.48238203
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 25
+    boneIndex[1]: 24
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.9864232
+    weight[1]: 0.013576855
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 24
+    boneIndex[1]: 20
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.8516535
+    weight[1]: 0.0939519
+    weight[2]: 0.054394554
+    weight[3]: 0
+    boneIndex[0]: 24
+    boneIndex[1]: 11
+    boneIndex[2]: 20
+    boneIndex[3]: 0
+  - weight[0]: 0.742713
+    weight[1]: 0.20301013
+    weight[2]: 0.054276917
+    weight[3]: 0
+    boneIndex[0]: 24
+    boneIndex[1]: 11
+    boneIndex[2]: 20
+    boneIndex[3]: 0
+  - weight[0]: 0.6398463
+    weight[1]: 0.31866282
+    weight[2]: 0.041490864
+    weight[3]: 0
+    boneIndex[0]: 11
+    boneIndex[1]: 24
+    boneIndex[2]: 12
+    boneIndex[3]: 0
+  - weight[0]: 0.62577426
+    weight[1]: 0.15574378
+    weight[2]: 0.15429017
+    weight[3]: 0.06419173
+    boneIndex[0]: 11
+    boneIndex[1]: 24
+    boneIndex[2]: 20
+    boneIndex[3]: 10
+  - weight[0]: 0.86146986
+    weight[1]: 0.1385301
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 25
+    boneIndex[1]: 24
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.86569804
+    weight[1]: 0.13430196
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 24
+    boneIndex[1]: 11
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.7674946
+    weight[1]: 0.12099243
+    weight[2]: 0.06944936
+    weight[3]: 0.0420636
+    boneIndex[0]: 25
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 24
+  - weight[0]: 0.6557221
+    weight[1]: 0.16884825
+    weight[2]: 0.12191567
+    weight[3]: 0.05351395
+    boneIndex[0]: 11
+    boneIndex[1]: 10
+    boneIndex[2]: 24
+    boneIndex[3]: 9
+  - weight[0]: 0.6305613
+    weight[1]: 0.20681518
+    weight[2]: 0.0919308
+    weight[3]: 0.07069277
+    boneIndex[0]: 11
+    boneIndex[1]: 10
+    boneIndex[2]: 24
+    boneIndex[3]: 9
+  - weight[0]: 0.77104217
+    weight[1]: 0.14671479
+    weight[2]: 0.06951597
+    weight[3]: 0.012727075
+    boneIndex[0]: 11
+    boneIndex[1]: 10
+    boneIndex[2]: 9
+    boneIndex[3]: 24
+  - weight[0]: 0.79561216
+    weight[1]: 0.122178786
+    weight[2]: 0.052820753
+    weight[3]: 0.02938832
+    boneIndex[0]: 11
+    boneIndex[1]: 10
+    boneIndex[2]: 9
+    boneIndex[3]: 24
+  - weight[0]: 0.59821767
+    weight[1]: 0.15404032
+    weight[2]: 0.1366376
+    weight[3]: 0.11110442
+    boneIndex[0]: 11
+    boneIndex[1]: 10
+    boneIndex[2]: 21
+    boneIndex[3]: 20
+  - weight[0]: 0.5889918
+    weight[1]: 0.19318064
+    weight[2]: 0.13205528
+    weight[3]: 0.08577227
+    boneIndex[0]: 11
+    boneIndex[1]: 10
+    boneIndex[2]: 21
+    boneIndex[3]: 20
+  - weight[0]: 0.7675547
+    weight[1]: 0.12100152
+    weight[2]: 0.06945405
+    weight[3]: 0.041989718
+    boneIndex[0]: 21
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 20
+  - weight[0]: 0.37192243
+    weight[1]: 0.35100317
+    weight[2]: 0.21070471
+    weight[3]: 0.06636965
+    boneIndex[0]: 10
+    boneIndex[1]: 21
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.66924995
+    weight[1]: 0.2561483
+    weight[2]: 0.062987424
+    weight[3]: 0.011614333
+    boneIndex[0]: 21
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.47971863
+    weight[1]: 0.38263464
+    weight[2]: 0.086068705
+    weight[3]: 0.05157793
+    boneIndex[0]: 21
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.49847072
+    weight[1]: 0.29502326
+    weight[2]: 0.12700506
+    weight[3]: 0.079500936
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 11
+    boneIndex[3]: 28
+  - weight[0]: 0.5357898
+    weight[1]: 0.31849048
+    weight[2]: 0.14571972
+    weight[3]: 0
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 11
+    boneIndex[3]: 0
+  - weight[0]: 0.53683627
+    weight[1]: 0.25459436
+    weight[2]: 0.13655062
+    weight[3]: 0.07201886
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 28
+    boneIndex[3]: 11
+  - weight[0]: 0.55895
+    weight[1]: 0.22124475
+    weight[2]: 0.1826327
+    weight[3]: 0.037172526
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 28
+    boneIndex[3]: 11
+  - weight[0]: 0.6024558
+    weight[1]: 0.20031384
+    weight[2]: 0.1577994
+    weight[3]: 0.039431028
+    boneIndex[0]: 9
+    boneIndex[1]: 10
+    boneIndex[2]: 28
+    boneIndex[3]: 11
+  - weight[0]: 0.7458503
+    weight[1]: 0.1806998
+    weight[2]: 0.03913884
+    weight[3]: 0.03431101
+    boneIndex[0]: 9
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 28
+  - weight[0]: 0.794361
+    weight[1]: 0.08083483
+    weight[2]: 0.062402766
+    weight[3]: 0.062401406
+    boneIndex[0]: 9
+    boneIndex[1]: 10
+    boneIndex[2]: 28
+    boneIndex[3]: 31
+  - weight[0]: 0.6310682
+    weight[1]: 0.2608361
+    weight[2]: 0.1080957
+    weight[3]: 0
+    boneIndex[0]: 9
+    boneIndex[1]: 28
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.44548348
+    weight[1]: 0.32736462
+    weight[2]: 0.21408713
+    weight[3]: 0.01306477
+    boneIndex[0]: 9
+    boneIndex[1]: 28
+    boneIndex[2]: 10
+    boneIndex[3]: 11
+  - weight[0]: 0.56265324
+    weight[1]: 0.32475656
+    weight[2]: 0.11259023
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.52720946
+    weight[1]: 0.25243664
+    weight[2]: 0.22035387
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.715527
+    weight[1]: 0.17630918
+    weight[2]: 0.10816379
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.60245574
+    weight[1]: 0.20031402
+    weight[2]: 0.15779857
+    weight[3]: 0.039431598
+    boneIndex[0]: 9
+    boneIndex[1]: 10
+    boneIndex[2]: 31
+    boneIndex[3]: 11
+  - weight[0]: 0.6310687
+    weight[1]: 0.26083535
+    weight[2]: 0.108095996
+    weight[3]: 0
+    boneIndex[0]: 9
+    boneIndex[1]: 31
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.44548345
+    weight[1]: 0.3273638
+    weight[2]: 0.21408746
+    weight[3]: 0.013065321
+    boneIndex[0]: 9
+    boneIndex[1]: 31
+    boneIndex[2]: 10
+    boneIndex[3]: 11
+  - weight[0]: 0.49847126
+    weight[1]: 0.29502308
+    weight[2]: 0.12700568
+    weight[3]: 0.07950005
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 11
+    boneIndex[3]: 31
+  - weight[0]: 0.5368373
+    weight[1]: 0.25459394
+    weight[2]: 0.13654923
+    weight[3]: 0.072019495
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 31
+    boneIndex[3]: 11
+  - weight[0]: 0.5626538
+    weight[1]: 0.32475588
+    weight[2]: 0.11259027
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.52720964
+    weight[1]: 0.2524362
+    weight[2]: 0.22035421
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.71552885
+    weight[1]: 0.17630796
+    weight[2]: 0.10816315
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.7467501
+    weight[1]: 0.21759559
+    weight[2]: 0.035654277
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.8871794
+    weight[1]: 0.091274
+    weight[2]: 0.021546725
+    weight[3]: 0
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.37191954
+    weight[1]: 0.35100827
+    weight[2]: 0.21070357
+    weight[3]: 0.06636867
+    boneIndex[0]: 10
+    boneIndex[1]: 25
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.66925037
+    weight[1]: 0.25614753
+    weight[2]: 0.062987946
+    weight[3]: 0.011614139
+    boneIndex[0]: 25
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.4797212
+    weight[1]: 0.3826327
+    weight[2]: 0.08606891
+    weight[3]: 0.05157715
+    boneIndex[0]: 25
+    boneIndex[1]: 10
+    boneIndex[2]: 11
+    boneIndex[3]: 9
+  - weight[0]: 0.5589514
+    weight[1]: 0.22124408
+    weight[2]: 0.18263105
+    weight[3]: 0.03717352
+    boneIndex[0]: 10
+    boneIndex[1]: 9
+    boneIndex[2]: 31
+    boneIndex[3]: 11
+  - weight[0]: 0.7147108
+    weight[1]: 0.21259882
+    weight[2]: 0.048582938
+    weight[3]: 0.024107551
+    boneIndex[0]: 9
+    boneIndex[1]: 31
+    boneIndex[2]: 10
+    boneIndex[3]: 28
+  - weight[0]: 0.8191214
+    weight[1]: 0.07736374
+    weight[2]: 0.0773618
+    weight[3]: 0.026153075
+    boneIndex[0]: 9
+    boneIndex[1]: 28
+    boneIndex[2]: 31
+    boneIndex[3]: 10
+  - weight[0]: 0.7147107
+    weight[1]: 0.2126009
+    weight[2]: 0.048583183
+    weight[3]: 0.024105228
+    boneIndex[0]: 9
+    boneIndex[1]: 28
+    boneIndex[2]: 10
+    boneIndex[3]: 31
+  - weight[0]: 0.7467476
+    weight[1]: 0.21759705
+    weight[2]: 0.03565533
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.8871758
+    weight[1]: 0.09127555
+    weight[2]: 0.021548698
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.7802092
+    weight[1]: 0.07774681
+    weight[2]: 0.07752437
+    weight[3]: 0.06451968
+    boneIndex[0]: 11
+    boneIndex[1]: 24
+    boneIndex[2]: 20
+    boneIndex[3]: 10
+  - weight[0]: 0.8656328
+    weight[1]: 0.13436717
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 20
+    boneIndex[1]: 11
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.8615164
+    weight[1]: 0.13848352
+    weight[2]: 0
+    weight[3]: 0
+    boneIndex[0]: 21
+    boneIndex[1]: 20
+    boneIndex[2]: 0
+    boneIndex[3]: 0
+  - weight[0]: 0.6308234
+    weight[1]: 0.291993
+    weight[2]: 0.061145194
+    weight[3]: 0.016038397
+    boneIndex[0]: 11
+    boneIndex[1]: 20
+    boneIndex[2]: 24
+    boneIndex[3]: 12
+  - weight[0]: 0.8102909
+    weight[1]: 0.09475227
+    weight[2]: 0.09475125
+    weight[3]: 0.00020556763
+    boneIndex[0]: 11
+    boneIndex[1]: 20
+    boneIndex[2]: 24
+    boneIndex[3]: 12
+  - weight[0]: 0.66606253
+    weight[1]: 0.26412034
+    weight[2]: 0.055309672
+    weight[3]: 0.0145074865
+    boneIndex[0]: 11
+    boneIndex[1]: 24
+    boneIndex[2]: 20
+    boneIndex[3]: 12
+  - weight[0]: 0.6242549
+    weight[1]: 0.28507176
+    weight[2]: 0.06693415
+    weight[3]: 0.023739299
+    boneIndex[0]: 31
+    boneIndex[1]: 9
+    boneIndex[2]: 28
+    boneIndex[3]: 10
+  - weight[0]: 0.5862974
+    weight[1]: 0.1994649
+    weight[2]: 0.1994641
+    weight[3]: 0.014773545
+    boneIndex[0]: 9
+    boneIndex[1]: 31
+    boneIndex[2]: 28
+    boneIndex[3]: 10
+  - weight[0]: 0.62425315
+    weight[1]: 0.2850721
+    weight[2]: 0.06693451
+    weight[3]: 0.023740245
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 31
+    boneIndex[3]: 10
+  - weight[0]: 0.9092636
+    weight[1]: 0.08053164
+    weight[2]: 0.010204744
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  - weight[0]: 0.8871758
+    weight[1]: 0.09127555
+    weight[2]: 0.021548698
+    weight[3]: 0
+    boneIndex[0]: 28
+    boneIndex[1]: 9
+    boneIndex[2]: 10
+    boneIndex[3]: 0
+  m_VertexData:
+    m_CurrentChannels: 139
+    m_VertexCount: 121
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 1
+      offset: 0
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    m_DataSize: 5816
+    _typelessdata: b22632bb4fa2d4ba97da043dad33fdbd8f1430bfa91c373fa4bed93ec91f30bfec8a16bf0000803faa144ebbb7520cba14f5063d724294bca1b3dbbed12f673f02c241bd24df66bf38e3dbbe0000803f798b78bb0f1fbdbad722073d39223f3dbc3915bf6aaa4f3f84b87fbf3e4deabc242e173d000080bf18d4a3bb6132d7babc28043d0f63afbe1bf731bfd3c8213f8bea3cbeb11b1cbf3b5245bf000080bfb6748abb8f2ddfb9863f083d89e236bec84900be78d5793f46e27bbf6149b13c6c8a35be000080bf7b99b9bb095d1aba56f0053de65110bfd5990bbebd8a503f73dc06be7a0e7d3fd223983d000080bfd02b81bb98e2e439b2f0073dacc266beea61253ed8f6753ff90079bf2f4fc0bdeb7259be000080bf1de8afbb37e4163a1c05053d3ca201bf41c8023f11d7313fb91fb0bdad8c453f015321bf000080bfeee9f4baf8f8883a3d5e083d891364be1970073f3f9f513f864976bf7e9682bed671c6bd0000803f895e5ebbf4edc33a3cd6073d28328fbe56341b3fdf943e3f18a275bfa8ee18be559374be000080bf69a989378e65bb3ab27f083d9201863bcddb193f669a4c3f72ff7fbff7dd083bae69683b0000803f00000000a118dc3ae501083dd10238ba8f4a273ff7c6413ffaff7fbfe1aa5abae64559b9000080bfabcf42bb2e99b2392d55083d76ab4cbe8903d1bb3ed47a3f23003cbf3d3829bf56cf1dbe0000803f207246bb97ed0b3be27c013d9f3370beb2eb743fa95a303eb46d76bf90cf50beed9836be000080bfcb0899bbfcaede3a1759fe3c323aacbe0abb6e3fb659063e9cd7de3e2e148e3e70425bbf000080bfbe7828bb9f95163b3943f13c089374be0877743f3d6a34be2a4077bf213e81be612c71bd000080bf30b083bb8fd9b13a8a3bf23c50a108bd50ee703fa639acbe3f6bccbeaf8c973e8c245e3f000080bfa5d26abb6b8d953adbc3e63c97d24dbfb909093fab9184be4f9912bf427750bf1dc9c13d000080bf8a0d15bbf794ec3a2280e53c58de88be216c713f77b34abea53976bff21b8cbef5e09dbb000080bf000000008b2f153b45a7f03c00000000573d7e3f28c3efbd000080bf0d8e83b59f7f0bb7000080bf000000006f78043b2280e53c0000000067b77b3f858a3abe000080bf22a83236cf137137000080bf85ee7ebb55224eba7b7de83ca78876bf629180bd722586be9f7bbd3b0c217abf92f6593e000080bff61483bbd75e8bb9ac60ec3ca292ac3e3a2292bdab5370bf1d6356be93537abff6b35dba000080bf0000000015bde73a9ebfd23c000000008f437f3f2a329bbd000080bf4fca143759baf438000080bfc25a09bb3817d43a9ebfd23c5fa183be9032763f0782c2bdc25a77bf32e283beb9caec3b000080bfa61856bb51b4903a9ebfd23c11e94cbf3b22153f2a9a10be57c618bf0ced4bbfca98c53d000080bfb0c65fbbc2004bba9ebfd23cea577dbf1c6288bd046202be97663e3de8a17cbf218e1e3e000080bf7b44312b75ade93a7b89c93c00000000e8267d3fc151183e000080bf664a0db88ad26a39000080bf3c3500bbeb9ec43a7b89c93c82e590be8a1a743f34c2d33dd55575bfa62892be65c21c3c000080bf1e5d03bb64e1013b13c6c13cd135adbe89da703faf41a03cdde670bffc3aadbec7d2b1ba000080bf8fc6e32b66e1013b13c6c13c0000000035887e3fe601db3dffff7fbfb8a100b82a7f9539000080bf39394dbb6484863a13c6c13c46fb57bf1340093f7003e3bc056c09bf0d8157bfd969673d000080bfe67d48bbaf28893a7b89c93ce72a4fbf1c5c163fc682453c9a7e15bf28764ebf3b7cbd3d000080bf64ad60bbfc844bbab9c7bf3c0a887fbfd04232bdb9022cbd70dd1f3d42757ebf54bad13d000080bf9e475bbbb0394bba7b89c93c36987fbff66162bd7d012cbc2bf95c3d45587ebf9e95cc3d000080bf8a0d153bf794ec3a2280e53c58de883e216c713f77b34abeca3976bf001b8c3e9fa79c3b000080bf1e5d033b64e1013b13c6c13cd135ad3e89da703faf41a03c0fe770bf8939ad3e6565fe3a000080bf3b35003beb9ec43a7b89c93c82e5903e8a1a743f34c2d33d135775bf6b22923e15ba14bc000080bf39394d3b6484863a13c6c13c46fb573f1340093f7003e3bc506c09bfb783573feebd64bd000080bfe67d483baf28893a7b89c93ce72a4f3f1c5c163fc682453c338115bfe8784e3f4c38bcbd000080bf64ad603bfc844bbab9c7bf3c0a887f3fd04232bdb9022cbd45fb1f3d4e797e3f5779d0bd000080bfb5575b3b37224eba5517bb3c2d857f3f7a0247bde66118bd41e840bdf5827fbfc48b233d0000803fce3b473b56b4843a30a6ba3c239f493f4fa4143f494b53be334318bf1dc94d3f859006bc000080bf9e475b3bb0394bba7b89c93c36987f3ff66162bd7d012cbc38035d3d2b5c7e3fdc5bcbbd000080bfb0c65f3bc2004bba9ebfd23cea577d3f1c6288bd046202be84ad3e3db4a67c3f590e1ebe000080bfa618563b51b4903a9ebfd23c11e94c3f3b22153f2a9a10be9cc418bffff14b3f11a7c4bd000080bf85ee7e3b55224eba7b7de83ca788763f629180bd722586be1eb7c03bed257a3f339c59be000080bfa5d26a3b6b8d953adbc3e63c97d24d3fb909093fab9184be929812bf4b78503faca5c1bd000080bfbe78283b9f95163b3943f13cbe63743ebe77743fc49a34bedd4777bf7019813eb02b6e3d000080bf30b0833b8fd9b13a8a3bf23c6321093d70ea703fbf4dacbe4bd9863e940da23e7a4a693f000080bff614833bd75e8bb9ac60ec3ca292acbe3a2292bdab5370bf9a1323be07b17c3f283492bc000080bfc25a093b3817d43a9ebfd23c5fa1833e9032763f0782c2bd635a77bf1ce6833e4a62e2bb000080bfb736993bfcaede3a1759fe3c0606ac3ecfce6e3f9131053ed2c19cbef37f743e98ea6bbf0000803ff7cd463b97ed0b3be27c013df0d36f3e05f8743fe2ca2f3e358976bf0914513ea3f3333e000080bf0916b03b37e4163a7717053d202a023f24fa023fe54e313fc4f9b43e47041c3f76ad35bf0000803f60ba5e3bf4edc33a3cd6073dbd418d3eed811c3f57e03d3f7def75bf4f091a3efcf46e3e000080bf6962f83a06cd843ac75a083db0fb6e3e1396063f3b69513f0d4bd83e960150bf4ba8cd3e000080bfbb59813b98e2e4390d03083d8eb35c3ea0fa223ef9a3763f167c79bf015dc73d77c74e3e000080bf66c7b93b095d1abab102063d9279113f81a90bbe3dbc4f3f304a22be49607cbf3f1960bd0000803fa1a28a3b8f2ddfb9e051083deb6a333e19ba00be13fa793f58fe7bbf2fee5bbb356c343e000080bf0402a43b6132d7ba173b043d7ac2b53e70c832bf2a1a1f3f6a536f3f8bc7873e4caa71be0000803f50e7783b0f1fbdba3235073dfc024fbc01fe0abf1af5563f4df87fbf10ce673c823ec1bb000080bff229313b0a23f9bac99c043d65c3fd3d5f6a31bf6ece353f945077bfb2a27dbe19d295bd000080bf89314e3b3bfa19ba69ef063d0a43c33c4117d1bea299693f576b99bd453269bf41bacfbe000080bf25e6433b14cc9839d14f083d58f2373ed642dfbc33bd7b3f912d8bbe384a76bf005dbc3c000080bf00000000a2a6133b5d56033df80100b8d291783fc5eb743e000080bf26b094b815022839000080bf2bc6a03ba53208bb6081fe3c0fd2b43eb69a6ebfe2e1a53dbb3c6cbf9363aabe8fca463e000080bf3006343b4b2c35bbe27c013d4614733e0c8466bf469bba3e771e78bf89a97abe4302d93c000080bfef37893bb7bfa0ba8e4af03c0562123e1e0362bf280be5beb12defbe7e34ad3eb42051bf0000803f17f8193bee455cbb8f94ec3cf6c1a73ec8ee6dbf08d22dbe947171bfff2faabee7b2ffb9000080bf810d153b4a044ebb7eaaea3c1defc83e7b5b60bf38ea8ebebf386abf8460cebed95faabc000080bf0000000046044ebba6b9ea3c00000000586569bf035bd2be000080bf9987cfb8b3426639000080bf00000000ea455cbbf891ec3c0000000022f076bf2a0587be000080bf45fb59b83a554739000080bf17f819bbee455cbb8f94ec3c81dea7be8deb6dbf97aa2dbef57071bf0333aa3ede70d83a000080bf810d15bb4a044ebb7eaaea3c1defc8be7b5b60bf38ea8ebeb4406abfb433ce3e0e91b43c000080bfef3789bbb7bfa0ba8e4af03cd73912bed80662bfe202e5beca137cbf4493303ec61fd5bc000080bf95d26abb60a906bbb23ce83c313353bf1b540bbf5bda1bbebf340fbf1c21533f232aaa3d000080bff61483bbd75e8bb9ac60ec3ca292ac3e3a2292bdab5370bf1d6356be93537abff6b35dba000080bf85ee7ebb55224eba7b7de83ca78876bf629180bd722586be8b62e0bd95cc7a3f1e012c3e000080bf4bfe0cbb357338bb9ebfd23c3833c8bec92d6bbfb42366bdc49c6bbf8899c73ebb97fd3c000080bf00000000bc8a42bb9ebfd23c0000000097db7fbfea8108bdffff7fbfed6512b7af328939000080bf647d4cbb0038f4ba9ebfd23c6dec5abf726502bf2fd2c4bd847104bf43a6593f9fc0c73d000080bfb0c65fbbc2004bba9ebfd23cea577dbf1c6288bd046202bec57ab0bdd9f07b3f21c11e3e000080bf393500bb823b3fbb7b89c93cc30aa8bef8b571bfce83e7bcb9bf71bf938ca73ed9d20a3d000080bf7b44312b823b3fbb7b89c93c0000000080c97fbf480227bd000080bfae73eeb6919a3639000080bf8fc6e32b894037bbb9c7bf3c0000000072077fbf6832b2bd000080bf6ccf32b729e8ff38000080bfb2fb05bb894037bbb9c7bf3c24d3c0bec07b66bfa25b5fbeb7016dbfe97ebf3e7718603d000080bfe27d48bbe27102bb7b89c93c225957bf036c0abfb4023abb66a409bf92fc553f3653e23d000080bf37394dbb0c5afabab9c7bf3cad5f54bf63e609bf9b9216be1c730ebfeac6513f5fb90c3e000080bf9e475bbbb0394bba7b89c93c36987fbff66162bd7d012cbcf22166bd60357d3f2f670b3e000080bf64ad60bbfc844bbab9c7bf3c0a887fbfd04232bdb9022cbd63ef4cbd79fc7b3f28332d3e000080bf3935003b823b3fbb7b89c93cc30aa83ef8b571bfce83e7bc4bc071bf7c8ea7befc3e09bd000080bfb2fb053b894037bbb9c7bf3c24d3c03ec07b66bfa25b5fbe4e016dbf8d84bfbee3525fbd000080bfe27d483be27102bb7b89c93c2259573f036c0abfb4023abbd3a509bfebfe55bf898de1bd000080bf4bfe0c3b357338bb9ebfd23c3833c83ec92d6bbfb42366bd039d6bbf909ec7be55abf8bc000080bf647d4c3b0038f4ba9ebfd23c6dec5a3f726502bf2fd2c4bda36f04bffead59bf24f3c5bd000080bf37394d3b0c5afabab9c7bf3cad5f543f63e609bf9b9216be93720ebf2ac951bf5b8c0cbe000080bf9e475b3bb0394bba7b89c93c36987f3ff66162bd7d012cbcf92066bd45387dbf18130bbe000080bf64ad603bfc844bbab9c7bf3c0a887f3fd04232bdb9022cbd49ea4cbd14fe7bbf330e2dbe000080bfce3b473b402bf7ba7b88bb3ccb56403f2fc016bf378698be7afa1ebfe89a48bfef268dbc0000803fb5575b3b37224eba5517bb3c2d857f3f7a0247bde66118bd41e840bdf5827fbfc48b233d0000803f95d26a3b60a906bbb23ce83c3133533f1b540bbf5bda1bbe99290fbf2c3653bf0deca5bd000080bff614833bd75e8bb9ac60ec3ca292acbe3a2292bdab5370bf9a1323be07b17c3f283492bc000080bf85ee7e3b55224eba7b7de83ca788763f629180bd722586be3c91dfbdbce07abf246d2abe000080bfb0c65f3bc2004bba9ebfd23cea577d3f1c6288bd046202be724ab0bd76f97bbf51f31dbe000080bf208da33aa6c934bb7b88bb3c1692033ee47575bf0eaa81be5d8f7dbf5d220cbedcc37f3c0000803f00000000a6c934bb7b88bb3c000000005d5c79bf32b267be000080bfd43083315e318db20000803f208da3baa6c934bb7b88bb3c169203bee47575bf0eaa81beff697dbf53c70e3ee858d2bc0000803fce3b47bb402bf7ba7b88bb3ccb5640bf2fc016bf378698be27221ebf7e51493fd2b35e3b0000803fb5575bbb37224eba5517bb3c2d857fbf7a0247bde66118bd41e840bdf5827f3fc48b23bd0000803f0000000042454abb837bf53c6602303a72b77cbf3b7a233ebeff7fbfd6be8fbaa6cd28bb000080bf59aa33bb4b2c35bbe27c013d61eb5fbe693162bf3307d43ec4e478bf89176f3e383479bc000080bf4098a0bba53208bb6081fe3cb2fab1be9e9f6ebf26f3cf3d0853113d81d7c23d4aad7e3f000080bff07cc1ba40833cbb9eea003d2a929fbd2b8369bfcc02ce3ecb732e3f50c7afbe6b7625bf0000803f99a18bb73b3249bbfc68ff3c3e0270bb495474bf6ed1983e12bd66bf2c2801be5829d4be000080bf209fbd3acf4e3ebbe201013d63e1893d5d006bbf0322c83e1f106fbfd99e48be353999be000080bf4b42a63aa7acf43a30a6ba3ccb51323e7ef0773fd33136be310c7cbf9cb0323e531361bc000080bf00000000acacf43a30a6ba3c0000000031bc7d3f2de907be000080bf4de3363106b8aa32000080bf4b42a6baa7acf43a30a6ba3ccb5132be7ef0773fd33136be0d0c7cbf1fb632be722a5f3c000080bfce3b47bb56b4843a30a6ba3c239f49bf4fa4143f494b53beeb7018bfa6a34dbfb98b4c3c000080bfb5575bbb37224eba5517bb3c2d857fbf7a0247bde66118bd41e840bdf5827f3fc48b23bd0000803f00000000000000008535bd3ec980d03ead0ac43efb30e93ecab6d13ecf5ddb3efb68eb3eff18cf3e9ec0d83e77f4ed3e518af83ee067ea3e7955d23e94ddfd3e89e8f23ee410033faed7aa3e5637033f5d68c63ee916083fc6ef863e4c6f063f3c3c873e830e093fec51c03e68b5fa3eff80c33e8a0c183fb03bea3e2975193f97e5bd3e4bba2e3fa236e43e09682c3f59b6df3eb72b3e3f561fbc3ec4ec3f3f173e873e452a313fd13e873e3861403fee43073f20f43f3fc7aa023f2e18393ff93d873eeb685b3f1655b93ec64a5b3fe47ed73e6c855b3f6d68013f3ea35e3fb43c873e989a683f19c7b63ee3be683f22a2b33e4493743f0e3b873e0390743f21b5d33e0f75743fdcc2d33e194d693f369dfd3e4b40793f81afff3ed8556b3faec0243e89ec3f3ff3aa353edb8f743f01682f3ef1bb683fab14eb3d226f743f8ceaea3d3e48693f5f02073d7736793fd242113dc1f07f3ff105f33d8bae7e3f402eed3c884d6b3f1061bb3c7f9c5e3f0e09dc3dce815b3f816b983889f23f3f7143bb3d4c2c3e3f4d2b213e84bb2e3f784fa93d2a6e2c3fe8ba933c8218393fde512a3e96485b3fa3ad903dcb84193fa091153ebf0c183fd4de5b3d1923033fc5780f3e3a0e083fd4b8453ebfe4023fdd41ef3d7eccfd3e637f2c3dd2f7ea3e0541d53d81eaed3ec577873d43b4cf3e4d28f13dddc9da3ee4ee213e534ecb3ecc23143e252ce83ed7021b3eaec0f93ec83c873e4d6d153fa83f863df56cb43ee7c1223e6b90b43e6a278d3dd891873e47a4363ec5ee803e5384363e32c0753ec007873ea099713e6108873ee2eb7c3e9ac5b23e03e9803e6dd1b23e96b4753e1ebaea3ed460873ebf40d43e7ce1663ee85dfc3e61b1703ee94def3ecb41613e2832b23e9376fc3df800873e538bfe3d8df3cd3efaa9f43d7003e53e6eb1e83d72f9ac3ea141a43d83ff863efc03a53da3fe863e8afb0c3d2c53ae3edb98143d220dc93e32ba9a3d2135c83e98dff23c29fce13e1b7f8e3dd20ddf3e9e2cb83ced06423e844fa43dbd4f3f3e46a5143de6d6093e1bd29a3dc99a373eba8efc3ddb0d003e3fd5f43d24840b3ed700f33c01dbaf3d589c8e3d8193bb3dcd50b83c1bd70f3e3e3e213c63d6c53d939d9838d61ae73dac13673e48ac0c3de009713e1e60753ddb87613e34c1a33d62e6e83d0e3c5c3e672c7b3c87fe863ec5f16b3c00de9f3ec1257b3cb60bc63ee632213c437ddc3e816b9838db08873e521f953e56e7bc3e86e1b43e74b4ec3e23fdb33e321ea43ec143b23e9d50873e0490ac3e3b30553eee78b23ed0a7523e9fc67e3f4f39873e31da7e3f851fa53e5cc97e3f3fb5d13e47b57e3fbc52fc3e3bfb7f3f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0.0000027369242, y: -0.0005316826, z: 0.028054614}
+    m_Extent: {x: 0.005666785, y: 0.002829419, z: 0.005270291}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 1

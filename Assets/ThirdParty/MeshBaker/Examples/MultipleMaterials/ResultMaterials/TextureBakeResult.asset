@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 499468296, guid: 0f20771f34eefe549a7337a23c679743, type: 3}
+  m_Name: TextureBakeResult
+  m_EditorClassIdentifier: 
+  version: 3252
+  resultType: 0
+  materialsAndUVRects:
+  - material: {fileID: 2100000, guid: d483a780cfcd6924a94f956c1adbaaab, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    srcObjName: House
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 4
+  - material: {fileID: 2100000, guid: 1723e8afe79ca7b4f9e2c3c609445d3d, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.69119424
+      y: 0.0019305019
+      width: 0.3075995
+      height: 0.9864865
+    srcObjName: TreeFoliage
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.00009998001
+      y: 0.00009998001
+      width: 0.9998001
+      height: 0.9998001
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 1031ef5166ec9514298e667574ededc6, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0012062726
+      y: 0.0019305019
+      width: 0.6875754
+      height: 0.996139
+    srcObjName: Bush
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: -0.05228614
+      y: 0.00009961468
+      width: 1.1138203
+      height: 1.0085348
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 9553f134e6d4dda49afd069db4be722d, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0011467889
+      y: 0.5009709
+      width: 0.9977064
+      height: 0.49805826
+    srcObjName: House
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: -0.069568634
+      y: 0.0052983463
+      width: 1.7001958
+      height: 1.0020045
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 0960bee2af9966e4c8ff638ee9a84fbf, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0011467889
+      y: 0.0009708738
+      width: 0.9977064
+      height: 0.49805826
+    srcObjName: House
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: -0.069568634
+      y: 0.0052983463
+      width: 1.7001958
+      height: 1.0020045
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: e453eb74d8cf8db4085e1991b3b88c11, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.50097656
+      y: 0.0019417476
+      width: 0.49804688
+      height: 0.9961165
+    srcObjName: House
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1.0024134
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 94e8ed58025c96148a3cef12cdc5a282, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0009765625
+      y: 0.0019417476
+      width: 0.49804688
+      height: 0.9961165
+    srcObjName: House
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1.0024134
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 6e3b019fd01df0e4a963f2f27a73745c, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0005955926
+      y: 0.19844125
+      width: 0.9988088
+      height: 0.19664268
+    srcObjName: House
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.00019097514
+      y: 0.32987243
+      width: 3.2766697
+      height: 0.6425038
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 69b5721e37860ab4199ddb2d6684c64b, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0005955926
+      y: 0.69844127
+      width: 0.64204884
+      height: 0.30095923
+    srcObjName: House
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.009248352
+      y: -0.0031582704
+      width: 2.1066537
+      height: 0.9820866
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: f0788963e7a9ac4418742439b8707317, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0005955926
+      y: 0.0005995204
+      width: 0.9988088
+      height: 0.19664268
+    srcObjName: House
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.00019097514
+      y: 0.32987243
+      width: 3.2766697
+      height: 0.6425038
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  - material: {fileID: 2100000, guid: 2abd084ee67299a438e75ccfadb0bade, type: 2}
+    atlasRect:
+      serializedVersion: 2
+      x: 0.0005955926
+      y: 0.39628297
+      width: 0.64204884
+      height: 0.30095923
+    srcObjName: House
+    textureArraySliceIdx: -1
+    allPropsUseSameTiling: 1
+    allPropsUseSameTiling_sourceMaterialTiling:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    allPropsUseSameTiling_samplingEncapsulatinRect:
+      serializedVersion: 2
+      x: 0.009248352
+      y: -0.0031582704
+      width: 2.1066537
+      height: 0.9820866
+    propsUseDifferntTiling_srcUVsamplingRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    tilingTreatment: 1
+  resultMaterials:
+  - combinedMaterial: {fileID: 2100000, guid: 9559e54b8ce1cd94786535de5961591b, type: 2}
+    considerMeshUVs: 0
+    sourceMaterials:
+    - {fileID: 2100000, guid: d483a780cfcd6924a94f956c1adbaaab, type: 2}
+  - combinedMaterial: {fileID: 2100000, guid: 4b798ad49c5343247a067444c8e5dd8d, type: 2}
+    considerMeshUVs: 1
+    sourceMaterials:
+    - {fileID: 2100000, guid: 1723e8afe79ca7b4f9e2c3c609445d3d, type: 2}
+    - {fileID: 2100000, guid: 1031ef5166ec9514298e667574ededc6, type: 2}
+  - combinedMaterial: {fileID: 2100000, guid: c826bbf6368da3d49a05490409857f1a, type: 2}
+    considerMeshUVs: 1
+    sourceMaterials:
+    - {fileID: 2100000, guid: 9553f134e6d4dda49afd069db4be722d, type: 2}
+    - {fileID: 2100000, guid: 0960bee2af9966e4c8ff638ee9a84fbf, type: 2}
+  - combinedMaterial: {fileID: 2100000, guid: d5647dc4ea2a573448d9f5031a2a87b3, type: 2}
+    considerMeshUVs: 1
+    sourceMaterials:
+    - {fileID: 2100000, guid: 94e8ed58025c96148a3cef12cdc5a282, type: 2}
+    - {fileID: 2100000, guid: e453eb74d8cf8db4085e1991b3b88c11, type: 2}
+  - combinedMaterial: {fileID: 2100000, guid: 968337c3d0d045645bed8433985ac6dc, type: 2}
+    considerMeshUVs: 1
+    sourceMaterials:
+    - {fileID: 2100000, guid: 2abd084ee67299a438e75ccfadb0bade, type: 2}
+    - {fileID: 2100000, guid: 69b5721e37860ab4199ddb2d6684c64b, type: 2}
+    - {fileID: 2100000, guid: f0788963e7a9ac4418742439b8707317, type: 2}
+    - {fileID: 2100000, guid: 6e3b019fd01df0e4a963f2f27a73745c, type: 2}
+  resultMaterialsTexArray: []
+  doMultiMaterial: 1

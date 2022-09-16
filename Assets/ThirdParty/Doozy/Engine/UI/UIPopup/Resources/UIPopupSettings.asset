@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4320b6044dba483bb727836a541819cb, type: 3}
+  m_Name: UIPopupSettings
+  m_EditorClassIdentifier: 
+  database: {fileID: 11400000, guid: da53b5dae106f9d4fa6ea480f5e4286b, type: 2}
+  DisplayTarget: 0
+  AddToPopupQueue: 1
+  AutoHideAfterShow: 0
+  AutoSelectButtonAfterShow: 0
+  BlockBackButton: 1
+  CustomCanvasName: 0
+  DestroyAfterHide: 1
+  HideOnAnyButton: 0
+  HideOnBackButton: 1
+  HideOnClickAnywhere: 0
+  HideOnClickContainer: 1
+  HideOnClickOverlay: 1
+  UpdateHideProgressorOnShow: 0
+  UpdateShowProgressorOnHide: 0
+  UseOverlay: 1
+  AutoHideAfterShowDelay: 3
+  CanvasName: MasterCanvas

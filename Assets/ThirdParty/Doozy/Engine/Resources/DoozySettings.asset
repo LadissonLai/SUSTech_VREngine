@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be99880c2e4b8248847a4c0807b1ca3, type: 3}
+  m_Name: DoozySettings
+  m_EditorClassIdentifier: 
+  SelectedLanguage: 1
+  AutoDisableUIInteractions: 1
+  DebugBackButton: 0
+  DebugGameEventListener: 0
+  DebugGameEventManager: 0
+  DebugGestureListener: 0
+  DebugGraphController: 0
+  DebugKeyToAction: 0
+  DebugKeyToGameEvent: 0
+  DebugOrientationDetector: 0
+  DebugProgressor: 0
+  DebugProgressorGroup: 0
+  DebugSceneDirector: 0
+  DebugSceneLoader: 0
+  DebugSoundyController: 0
+  DebugSoundyManager: 0
+  DebugSoundyPooler: 0
+  DebugTouchDetector: 0
+  DebugUIButton: 0
+  DebugUIButtonListener: 0
+  DebugUICanvas: 0
+  DebugUIDrawer: 0
+  DebugUIDrawerListener: 0
+  DebugUIPopup: 0
+  DebugUIPopupManager: 0
+  DebugUIToggle: 0
+  DebugUIView: 0
+  DebugUIViewListener: 0
+  DOTweenDetected: 1
+  DoozyUIVersion3Detected: 1
+  DoozyUIVersion2Detected: 0
+  MasterAudioDetected: 0
+  PlaymakerDetected: 0
+  TextMeshProDetected: 1
+  IgnoreUnityTimescale: 1
+  SpeedBasedAnimations: 0
+  UseBackButton: 1
+  UseMasterAudio: 0
+  UseOrientationDetector: 0
+  UsePlaymaker: 0
+  UseTextMeshPro: 0
+  AssetDatabaseSaveAssetsNeeded: 1
+  AssetDatabaseRefreshNeeded: 0

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd5a64a23c24d50b729e4d9a0093c32, type: 3}
+  m_Name: NodySettings
+  m_EditorClassIdentifier: 
+  NormalOpacity: 0.8
+  ActiveOpacity: 0.6
+  HoverOpacity: 1
+  FooterHeight: 10
+  MaxNodeWidth: 300
+  MinNodeWidth: 100
+  NodeAccentLineHeight: 2
+  NodeAddSocketButtonSize: 12
+  NodeBodyOpacity: 0.7
+  NodeDeleteButtonSize: 20
+  NodeGlowOpacity: 0.2
+  NodeHeaderHeight: 32
+  NodeHeaderIconSize: 20
+  PingColorChangeSpeed: 0.6
+  SocketConnectedOpacity: 1
+  SocketCurveModifierMaxValue: 1
+  SocketCurveModifierMinValue: -1
+  SocketDividerHeight: 1
+  SocketDividerOpacity: 0.3
+  SocketHeight: 24
+  SocketNotConnectedOpacity: 0.5
+  SocketVerticalSpacing: 0
+  ConnectionPointHeight: 16
+  ConnectionPointOffsetFromLeftMargin: -2
+  ConnectionPointOffsetFromRightMargin: 2
+  ConnectionPointWidth: 16
+  CurvePointsMultiplier: 3
+  CurveStrengthModifier: 0.48
+  CurveWidth: 3
+  DefaultCurveModifier: 0
+  MaxCurveModifier: 0.5
+  MinCurveModifier: -0.5
+  GraphTabDividerWidth: 1
+  GraphTabElementSpacing: 4
+  GraphTabMaximumWidth: 200
+  GraphTabMinimumWidth: 40
+  GraphTabsAreaHeight: 40
+  GraphTabsBackgroundOpacity: 0.8
+  RepaintIntervalDuringPlayMode: 0.4000000059604645
+  RepaintIntervalWhileIdle: 0.6000000238418579
+  EditorPrefsKeyWindowToolbar: Doozy.Nody.WindowToolbar
+  EditorPrefsKeyDotAnimationSpeed: Doozy.Nody.DotAnimationSpeed
+  DefaultNodeHeight: 216
+  DefaultNodeWidth: 216
+  EnterNodeWidth: 120
+  ExitNodeWidth: 120
+  StartNodeWidth: 120
+  SubGraphNodeWidth: 216
+  SwitchBackNodeWidth: 216
+  DefaultHideFlagsForNodes: 1

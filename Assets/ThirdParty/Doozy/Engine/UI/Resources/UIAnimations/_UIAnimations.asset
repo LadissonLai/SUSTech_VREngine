@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26ed4021c714f0f46bf3294e205c766c, type: 3}
+  m_Name: _UIAnimations
+  m_EditorClassIdentifier: 
+  Show:
+    DatabaseNames:
+    - Basic
+    - Drop
+    - Fade
+    - Flip
+    - Organic
+    - Rotate
+    - Scale
+    - Slide
+    - Uncategorized
+    DatabaseType: 1
+    Databases:
+    - {fileID: 11400000, guid: 8c6ef36a151e4be46b9976a8293cc70b, type: 2}
+    - {fileID: 11400000, guid: b1959cc9692cfba478c5b24eb593a168, type: 2}
+    - {fileID: 11400000, guid: 09c98895f36ad234fb31b37056deac15, type: 2}
+    - {fileID: 11400000, guid: e1e4d3246c249e74e807605f1cde3886, type: 2}
+    - {fileID: 11400000, guid: 258054dd65ded1a4a8220ac1dfdc9af6, type: 2}
+    - {fileID: 11400000, guid: 94c9be9c0ca4fdc48a38595e65d4dd58, type: 2}
+    - {fileID: 11400000, guid: 67698ae6846c9a54c8bb8e788285a30a, type: 2}
+    - {fileID: 11400000, guid: 449a437e97970c345afaf9d335af35d4, type: 2}
+    - {fileID: 11400000, guid: 3b952b20b3e7d254b9f39caac7d7a31a, type: 2}
+  Hide:
+    DatabaseNames:
+    - Basic
+    - Drop
+    - Fade
+    - Flip
+    - Organic
+    - Rotate
+    - Scale
+    - Slide
+    - Uncategorized
+    DatabaseType: 2
+    Databases:
+    - {fileID: 11400000, guid: 1b08c632a509b614181576389ef25ebc, type: 2}
+    - {fileID: 11400000, guid: 69e2ab74d8d45124a8a536cdca29d173, type: 2}
+    - {fileID: 11400000, guid: 1faa7606c9a750446b9ce9844faf6e98, type: 2}
+    - {fileID: 11400000, guid: faaa8b034882d0e4c887492e656135c7, type: 2}
+    - {fileID: 11400000, guid: d48941b9cb53ba0468eb9fc04c33a358, type: 2}
+    - {fileID: 11400000, guid: 5cc54cfcd21d26546be54db4451e4065, type: 2}
+    - {fileID: 11400000, guid: 451487294b711bf4ea50830836f44a3e, type: 2}
+    - {fileID: 11400000, guid: 90e01018ab79dce47b7ee263cbcb51c1, type: 2}
+    - {fileID: 11400000, guid: ff1cd5c3f422d5f4dae1c60a7ee07eb4, type: 2}
+  Loop:
+    DatabaseNames:
+    - Elastic
+    - Fade
+    - Flip
+    - Move
+    - Organic
+    - Rotate
+    - Scale
+    - Uncategorized
+    - Uncommon
+    DatabaseType: 3
+    Databases:
+    - {fileID: 11400000, guid: 2110a2902fd429b4fa1f3d16c287c5f6, type: 2}
+    - {fileID: 11400000, guid: c50fcae6b94ee374e8172a30f0e6d93e, type: 2}
+    - {fileID: 11400000, guid: 8f7430e77cf05a94f8d2fde0ff6eba9c, type: 2}
+    - {fileID: 11400000, guid: 692989461c4bb664b9006b9fdc2b1100, type: 2}
+    - {fileID: 11400000, guid: fa4b58cb43ab40f49abdcb593426f8fc, type: 2}
+    - {fileID: 11400000, guid: 0b12952b7799009448599378106124c9, type: 2}
+    - {fileID: 11400000, guid: 5fd51270beca15142bd11b62ace39ff1, type: 2}
+    - {fileID: 11400000, guid: 79c8623777120224b8d2dbad6029043a, type: 2}
+    - {fileID: 11400000, guid: cc23f54e9bc61404283b001b53956d85, type: 2}
+  Punch:
+    DatabaseNames:
+    - Flip
+    - Jump
+    - Organic
+    - Rotate
+    - Scale
+    - Slide
+    - Stretch
+    - Uncategorized
+    DatabaseType: 4
+    Databases:
+    - {fileID: 11400000, guid: e97cfe968e848d34287529b9c50fea0f, type: 2}
+    - {fileID: 11400000, guid: 2f70498a9f8638242a6d3641962c27b3, type: 2}
+    - {fileID: 11400000, guid: de72fd5e1161c8843b812872be0c6484, type: 2}
+    - {fileID: 11400000, guid: 97a3b9e41fb2f3e459158f4f9671eea4, type: 2}
+    - {fileID: 11400000, guid: 1c1a6b647483a284abe5221ae974e609, type: 2}
+    - {fileID: 11400000, guid: 4c25a292884d6a3469345003ab04a455, type: 2}
+    - {fileID: 11400000, guid: dc5ee88b8daa45c429ba98ffc3745618, type: 2}
+    - {fileID: 11400000, guid: 9570926e4f35ec549ad87d0b4e351318, type: 2}
+  State:
+    DatabaseNames:
+    - Basic
+    - Drop
+    - Elastic
+    - Fade
+    - Flip
+    - Move
+    - Organic
+    - Uncategorized
+    - Uncommon
+    DatabaseType: 5
+    Databases:
+    - {fileID: 11400000, guid: 5d86dbe88395b0e45b855510d7a134b5, type: 2}
+    - {fileID: 11400000, guid: 38d3d43e97a2215498849d9e2dc4b9a5, type: 2}
+    - {fileID: 11400000, guid: b5cecbd93ad85484892f77d03c747210, type: 2}
+    - {fileID: 11400000, guid: ee3a9c685cc7deb449567045abc0d0d1, type: 2}
+    - {fileID: 11400000, guid: cda1ae1506d7efc4f9412c4c5f136a3a, type: 2}
+    - {fileID: 11400000, guid: 5c9b9339e29765b43a05e39aa06d4d17, type: 2}
+    - {fileID: 11400000, guid: bb46711dccd6fc349b93d15c940d3f5b, type: 2}
+    - {fileID: 11400000, guid: 586c0febef284ed4895b1e4f1156358d, type: 2}
+    - {fileID: 11400000, guid: d7ba7c8628d1f0b4696b7b944ce60f89, type: 2}
