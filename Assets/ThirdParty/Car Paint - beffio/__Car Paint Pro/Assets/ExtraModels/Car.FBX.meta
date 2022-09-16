@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: f2abafed10bc1c44c81012152a661110
+labels:
+- car
+- physicalbasedrendering
+- pbr
+- reaflectionprobe
+- carshaders
+- mobilecar
+- autofocus
+- lightflare
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BackShelf
+    100002: BodyBackBottom
+    100004: BodyBackMiddleLeft
+    100006: BodyBackMiddleRight
+    100008: BodyFrameFront
+    100010: BodyFront
+    100012: BodyFrontLeftSide
+    100014: BodyFrontRightSide
+    100016: BodyHoodFront
+    100018: BodyTop
+    100020: BrakeCaliper
+    100022: BrakeCaliper 1
+    100024: BrakeCaliper 2
+    100026: BrakeCaliper 3
+    100028: BrakeDisc
+    100030: BrakeDisc 1
+    100032: BrakeDisc 2
+    100034: BrakeDisc 3
+    100036: //RootNode
+    100038: ChairBackCenter
+    100040: ChairBackLeft
+    100042: ChairBackRight
+    100044: ChairFrontLeft
+    100046: ChairFrontRight
+    100048: Damper
+    100050: Damper 1
+    100052: Damper 2
+    100054: Damper 3
+    100056: DamperFrame
+    100058: DamperFrame 1
+    100060: DamperFrame 2
+    100062: DamperFrame 3
+    100064: DashboardGears
+    100066: DashboardInterior
+    100068: DoorsFrontRight
+    100070: DoorsFrontRLeft
+    100072: ExhaustBackLeft
+    100074: ExhaustBackRight
+    100076: FrameBottom
+    100078: GearboxFront
+    100080: GrillFront
+    100082: InteriorFrame
+    100084: LightBackLeft
+    100086: LightBackRight
+    100088: LightFogFrontLeft
+    100090: LightFogFrontRight
+    100092: LightFrontLeft
+    100094: LightFrontRight
+    100096: MirrorBack
+    100098: Network
+    100100: PedalsFront
+    100102: PlateBack
+    100104: PlateFront
+    100106: Screw
+    100108: Screw 1
+    100110: Screw 10
+    100112: Screw 11
+    100114: Screw 12
+    100116: Screw 13
+    100118: Screw 14
+    100120: Screw 15
+    100122: Screw 2
+    100124: Screw 3
+    100126: Screw 4
+    100128: Screw 5
+    100130: Screw 6
+    100132: Screw 7
+    100134: Screw 8
+    100136: Screw 9
+    100138: Screww
+    100140: Screww 1
+    100142: Screww 2
+    100144: Screww 3
+    100146: Spring
+    100148: Spring 1
+    100150: Spring 2
+    100152: Spring 3
+    100154: SteeringWheel
+    100156: Tire
+    100158: Tire 1
+    100160: Tire 2
+    100162: Tire 3
+    100164: TrunkBack
+    100166: Wheel
+    100168: Wheel 1
+    100170: Wheel 2
+    100172: Wheel 3
+    100174: WheelBackLeft
+    100176: WheelBackRight
+    100178: WheelBackRight 1
+    100180: WheelCap
+    100182: WheelCap 1
+    100184: WheelCap 2
+    100186: WheelCap 3
+    100188: WheelFrontLeft
+    100190: WindowBack
+    100192: WindowBackLeftSide
+    100194: WindowBackRightSide
+    100196: WindowFront
+    100198: WipeLeft
+    100200: WipeRight
+    400000: BackShelf
+    400002: BodyBackBottom
+    400004: BodyBackMiddleLeft
+    400006: BodyBackMiddleRight
+    400008: BodyFrameFront
+    400010: BodyFront
+    400012: BodyFrontLeftSide
+    400014: BodyFrontRightSide
+    400016: BodyHoodFront
+    400018: BodyTop
+    400020: BrakeCaliper
+    400022: BrakeCaliper 1
+    400024: BrakeCaliper 2
+    400026: BrakeCaliper 3
+    400028: BrakeDisc
+    400030: BrakeDisc 1
+    400032: BrakeDisc 2
+    400034: BrakeDisc 3
+    400036: //RootNode
+    400038: ChairBackCenter
+    400040: ChairBackLeft
+    400042: ChairBackRight
+    400044: ChairFrontLeft
+    400046: ChairFrontRight
+    400048: Damper
+    400050: Damper 1
+    400052: Damper 2
+    400054: Damper 3
+    400056: DamperFrame
+    400058: DamperFrame 1
+    400060: DamperFrame 2
+    400062: DamperFrame 3
+    400064: DashboardGears
+    400066: DashboardInterior
+    400068: DoorsFrontRight
+    400070: DoorsFrontRLeft
+    400072: ExhaustBackLeft
+    400074: ExhaustBackRight
+    400076: FrameBottom
+    400078: GearboxFront
+    400080: GrillFront
+    400082: InteriorFrame
+    400084: LightBackLeft
+    400086: LightBackRight
+    400088: LightFogFrontLeft
+    400090: LightFogFrontRight
+    400092: LightFrontLeft
+    400094: LightFrontRight
+    400096: MirrorBack
+    400098: Network
+    400100: PedalsFront
+    400102: PlateBack
+    400104: PlateFront
+    400106: Screw
+    400108: Screw 1
+    400110: Screw 10
+    400112: Screw 11
+    400114: Screw 12
+    400116: Screw 13
+    400118: Screw 14
+    400120: Screw 15
+    400122: Screw 2
+    400124: Screw 3
+    400126: Screw 4
+    400128: Screw 5
+    400130: Screw 6
+    400132: Screw 7
+    400134: Screw 8
+    400136: Screw 9
+    400138: Screww
+    400140: Screww 1
+    400142: Screww 2
+    400144: Screww 3
+    400146: Spring
+    400148: Spring 1
+    400150: Spring 2
+    400152: Spring 3
+    400154: SteeringWheel
+    400156: Tire
+    400158: Tire 1
+    400160: Tire 2
+    400162: Tire 3
+    400164: TrunkBack
+    400166: Wheel
+    400168: Wheel 1
+    400170: Wheel 2
+    400172: Wheel 3
+    400174: WheelBackLeft
+    400176: WheelBackRight
+    400178: WheelBackRight 1
+    400180: WheelCap
+    400182: WheelCap 1
+    400184: WheelCap 2
+    400186: WheelCap 3
+    400188: WheelFrontLeft
+    400190: WindowBack
+    400192: WindowBackLeftSide
+    400194: WindowBackRightSide
+    400196: WindowFront
+    400198: WipeLeft
+    400200: WipeRight
+    2300000: BackShelf
+    2300002: BodyBackBottom
+    2300004: BodyBackMiddleLeft
+    2300006: BodyBackMiddleRight
+    2300008: BodyFrameFront
+    2300010: BodyFront
+    2300012: BodyFrontLeftSide
+    2300014: BodyFrontRightSide
+    2300016: BodyHoodFront
+    2300018: BodyTop
+    2300020: BrakeCaliper
+    2300022: BrakeCaliper 1
+    2300024: BrakeCaliper 2
+    2300026: BrakeCaliper 3
+    2300028: BrakeDisc
+    2300030: BrakeDisc 1
+    2300032: BrakeDisc 2
+    2300034: BrakeDisc 3
+    2300036: ChairBackCenter
+    2300038: ChairBackLeft
+    2300040: ChairBackRight
+    2300042: ChairFrontLeft
+    2300044: ChairFrontRight
+    2300046: Damper
+    2300048: Damper 1
+    2300050: Damper 2
+    2300052: Damper 3
+    2300054: DamperFrame
+    2300056: DamperFrame 1
+    2300058: DamperFrame 2
+    2300060: DamperFrame 3
+    2300062: DashboardGears
+    2300064: DashboardInterior
+    2300066: DoorsFrontRight
+    2300068: DoorsFrontRLeft
+    2300070: ExhaustBackLeft
+    2300072: ExhaustBackRight
+    2300074: FrameBottom
+    2300076: GearboxFront
+    2300078: GrillFront
+    2300080: InteriorFrame
+    2300082: LightBackLeft
+    2300084: LightBackRight
+    2300086: LightFogFrontLeft
+    2300088: LightFogFrontRight
+    2300090: LightFrontLeft
+    2300092: LightFrontRight
+    2300094: MirrorBack
+    2300096: Network
+    2300098: PedalsFront
+    2300100: PlateBack
+    2300102: PlateFront
+    2300104: Screw
+    2300106: Screw 1
+    2300108: Screw 10
+    2300110: Screw 11
+    2300112: Screw 12
+    2300114: Screw 13
+    2300116: Screw 14
+    2300118: Screw 15
+    2300120: Screw 2
+    2300122: Screw 3
+    2300124: Screw 4
+    2300126: Screw 5
+    2300128: Screw 6
+    2300130: Screw 7
+    2300132: Screw 8
+    2300134: Screw 9
+    2300136: Screww
+    2300138: Screww 1
+    2300140: Screww 2
+    2300142: Screww 3
+    2300144: Spring
+    2300146: Spring 1
+    2300148: Spring 2
+    2300150: Spring 3
+    2300152: SteeringWheel
+    2300154: Tire
+    2300156: Tire 1
+    2300158: Tire 2
+    2300160: Tire 3
+    2300162: TrunkBack
+    2300164: Wheel
+    2300166: Wheel 1
+    2300168: Wheel 2
+    2300170: Wheel 3
+    2300172: WheelCap
+    2300174: WheelCap 1
+    2300176: WheelCap 2
+    2300178: WheelCap 3
+    2300180: WindowBack
+    2300182: WindowBackLeftSide
+    2300184: WindowBackRightSide
+    2300186: WindowFront
+    2300188: WipeLeft
+    2300190: WipeRight
+    3300000: BackShelf
+    3300002: BodyBackBottom
+    3300004: BodyBackMiddleLeft
+    3300006: BodyBackMiddleRight
+    3300008: BodyFrameFront
+    3300010: BodyFront
+    3300012: BodyFrontLeftSide
+    3300014: BodyFrontRightSide
+    3300016: BodyHoodFront
+    3300018: BodyTop
+    3300020: BrakeCaliper
+    3300022: BrakeCaliper 1
+    3300024: BrakeCaliper 2
+    3300026: BrakeCaliper 3
+    3300028: BrakeDisc
+    3300030: BrakeDisc 1
+    3300032: BrakeDisc 2
+    3300034: BrakeDisc 3
+    3300036: ChairBackCenter
+    3300038: ChairBackLeft
+    3300040: ChairBackRight
+    3300042: ChairFrontLeft
+    3300044: ChairFrontRight
+    3300046: Damper
+    3300048: Damper 1
+    3300050: Damper 2
+    3300052: Damper 3
+    3300054: DamperFrame
+    3300056: DamperFrame 1
+    3300058: DamperFrame 2
+    3300060: DamperFrame 3
+    3300062: DashboardGears
+    3300064: DashboardInterior
+    3300066: DoorsFrontRight
+    3300068: DoorsFrontRLeft
+    3300070: ExhaustBackLeft
+    3300072: ExhaustBackRight
+    3300074: FrameBottom
+    3300076: GearboxFront
+    3300078: GrillFront
+    3300080: InteriorFrame
+    3300082: LightBackLeft
+    3300084: LightBackRight
+    3300086: LightFogFrontLeft
+    3300088: LightFogFrontRight
+    3300090: LightFrontLeft
+    3300092: LightFrontRight
+    3300094: MirrorBack
+    3300096: Network
+    3300098: PedalsFront
+    3300100: PlateBack
+    3300102: PlateFront
+    3300104: Screw
+    3300106: Screw 1
+    3300108: Screw 10
+    3300110: Screw 11
+    3300112: Screw 12
+    3300114: Screw 13
+    3300116: Screw 14
+    3300118: Screw 15
+    3300120: Screw 2
+    3300122: Screw 3
+    3300124: Screw 4
+    3300126: Screw 5
+    3300128: Screw 6
+    3300130: Screw 7
+    3300132: Screw 8
+    3300134: Screw 9
+    3300136: Screww
+    3300138: Screww 1
+    3300140: Screww 2
+    3300142: Screww 3
+    3300144: Spring
+    3300146: Spring 1
+    3300148: Spring 2
+    3300150: Spring 3
+    3300152: SteeringWheel
+    3300154: Tire
+    3300156: Tire 1
+    3300158: Tire 2
+    3300160: Tire 3
+    3300162: TrunkBack
+    3300164: Wheel
+    3300166: Wheel 1
+    3300168: Wheel 2
+    3300170: Wheel 3
+    3300172: WheelCap
+    3300174: WheelCap 1
+    3300176: WheelCap 2
+    3300178: WheelCap 3
+    3300180: WindowBack
+    3300182: WindowBackLeftSide
+    3300184: WindowBackRightSide
+    3300186: WindowFront
+    3300188: WipeLeft
+    3300190: WipeRight
+    4300000: BodyBackMiddleLeft
+    4300002: BodyFront
+    4300004: GrillFront
+    4300006: BodyHoodFront
+    4300008: BodyFrontRightSide
+    4300010: BodyBackBottom
+    4300012: LightBackRight
+    4300014: TrunkBack
+    4300016: WindowBack
+    4300018: BodyTop
+    4300020: WindowFront
+    4300022: BodyFrameFront
+    4300024: WindowBackRightSide
+    4300026: FrameBottom
+    4300028: ExhaustBackRight
+    4300030: WipeRight
+    4300032: ChairFrontLeft
+    4300034: ChairBackLeft
+    4300036: ChairFrontRight
+    4300038: BackShelf
+    4300040: InteriorFrame
+    4300042: PlateFront
+    4300044: PlateBack
+    4300046: SteeringWheel
+    4300048: DashboardInterior
+    4300050: Network
+    4300052: GearboxFront
+    4300054: PedalsFront
+    4300056: DashboardGears
+    4300058: LightFogFrontRight
+    4300060: LightFogFrontLeft
+    4300062: LightFrontRight
+    4300064: LightFrontLeft
+    4300066: ChairBackRight
+    4300068: ChairBackCenter
+    4300070: ExhaustBackLeft
+    4300072: WipeLeft
+    4300074: MirrorBack
+    4300076: WindowBackLeftSide
+    4300078: DoorsFrontRLeft
+    4300080: BodyBackMiddleRight
+    4300082: BodyFrontLeftSide
+    4300084: Damper
+    4300086: Spring
+    4300088: DamperFrame
+    4300090: DamperFrame
+    4300092: Spring
+    4300094: Damper
+    4300096: Spring
+    4300098: Damper
+    4300100: DamperFrame
+    4300102: DamperFrame
+    4300104: Damper
+    4300106: Spring
+    4300108: DoorsFrontRight
+    4300110: LightBackLeft
+    4300112: Screw
+    4300114: Screww
+    4300116: Screw
+    4300118: Screw
+    4300120: WheelCap
+    4300122: BrakeCaliper
+    4300124: Screw
+    4300126: BrakeDisc
+    4300128: Tire
+    4300130: Wheel
+    4300132: Screww
+    4300134: Screw
+    4300136: BrakeCaliper
+    4300138: WheelCap
+    4300140: Screw
+    4300142: Screw
+    4300144: Screw
+    4300146: BrakeDisc
+    4300148: Wheel
+    4300150: Tire
+    4300152: Screw
+    4300154: Wheel
+    4300156: BrakeDisc
+    4300158: Screw
+    4300160: Screww
+    4300162: Screw
+    4300164: WheelCap
+    4300166: BrakeCaliper
+    4300168: Screw
+    4300170: Tire
+    4300172: Wheel
+    4300174: Screw
+    4300176: BrakeCaliper
+    4300178: WheelCap
+    4300180: Screw
+    4300182: Screw
+    4300184: Screww
+    4300186: Screw
+    4300188: BrakeDisc
+    4300190: Tire
+    6400000: BackShelf
+    6400002: BodyBackBottom
+    6400004: BodyBackMiddleLeft
+    6400006: BodyBackMiddleRight
+    6400008: BodyFrameFront
+    6400010: BodyFront
+    6400012: BodyFrontLeftSide
+    6400014: BodyFrontRightSide
+    6400016: BodyHoodFront
+    6400018: BodyTop
+    6400020: BrakeCaliper
+    6400022: BrakeCaliper 1
+    6400024: BrakeCaliper 2
+    6400026: BrakeCaliper 3
+    6400028: BrakeDisc
+    6400030: BrakeDisc 1
+    6400032: BrakeDisc 2
+    6400034: BrakeDisc 3
+    6400036: ChairBackCenter
+    6400038: ChairBackLeft
+    6400040: ChairBackRight
+    6400042: ChairFrontLeft
+    6400044: ChairFrontRight
+    6400046: Damper
+    6400048: Damper 1
+    6400050: Damper 2
+    6400052: Damper 3
+    6400054: DamperFrame
+    6400056: DamperFrame 1
+    6400058: DamperFrame 2
+    6400060: DamperFrame 3
+    6400062: DashboardGears
+    6400064: DashboardInterior
+    6400066: DoorsFrontRight
+    6400068: DoorsFrontRLeft
+    6400070: ExhaustBackLeft
+    6400072: ExhaustBackRight
+    6400074: FrameBottom
+    6400076: GearboxFront
+    6400078: GrillFront
+    6400080: InteriorFrame
+    6400082: LightBackLeft
+    6400084: LightBackRight
+    6400086: LightFogFrontLeft
+    6400088: LightFogFrontRight
+    6400090: LightFrontLeft
+    6400092: LightFrontRight
+    6400094: MirrorBack
+    6400096: Network
+    6400098: PedalsFront
+    6400100: PlateBack
+    6400102: PlateFront
+    6400104: Screw
+    6400106: Screw 1
+    6400108: Screw 10
+    6400110: Screw 11
+    6400112: Screw 12
+    6400114: Screw 13
+    6400116: Screw 14
+    6400118: Screw 15
+    6400120: Screw 2
+    6400122: Screw 3
+    6400124: Screw 4
+    6400126: Screw 5
+    6400128: Screw 6
+    6400130: Screw 7
+    6400132: Screw 8
+    6400134: Screw 9
+    6400136: Screww
+    6400138: Screww 1
+    6400140: Screww 2
+    6400142: Screww 3
+    6400144: Spring
+    6400146: Spring 1
+    6400148: Spring 2
+    6400150: Spring 3
+    6400152: SteeringWheel
+    6400154: Tire
+    6400156: Tire 1
+    6400158: Tire 2
+    6400160: Tire 3
+    6400162: TrunkBack
+    6400164: Wheel
+    6400166: Wheel 1
+    6400168: Wheel 2
+    6400170: Wheel 3
+    6400172: WheelCap
+    6400174: WheelCap 1
+    6400176: WheelCap 2
+    6400178: WheelCap 3
+    6400180: WindowBack
+    6400182: WindowBackLeftSide
+    6400184: WindowBackRightSide
+    6400186: WindowFront
+    6400188: WipeLeft
+    6400190: WipeRight
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
