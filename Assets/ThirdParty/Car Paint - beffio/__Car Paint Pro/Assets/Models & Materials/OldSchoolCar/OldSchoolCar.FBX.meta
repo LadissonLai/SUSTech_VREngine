@@ -1,0 +1,794 @@
+fileFormatVersion: 2
+guid: b304de2fda7e7cc4fbf549ae0eb82191
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BackBumper
+    100002: BackLight
+    100004: BackLight001
+    100006: BackWindowTrim
+    100008: BlackPanels
+    100010: Box296
+    100012: Box359
+    100014: Box360
+    100016: CarBody
+    100018: CarBody_MeshPart0
+    100020: CarBody_MeshPart1
+    100022: CarBody_MeshPart2
+    100024: Dashboard
+    100026: Exhaust1
+    100028: Floor
+    100030: GearBack
+    100032: GearsFront001
+    100034: Helix001
+    100036: HoodTrim
+    100038: innerfender001
+    100040: InnerFenderBackR
+    100042: InnerShell
+    100044: InteriorAutomaticGear
+    100046: InteriorFrame
+    100048: InteriorPanel
+    100050: Object006
+    100052: Object007
+    100054: Object008
+    100056: Object009
+    100058: Object010
+    100060: Object013
+    100062: Object016
+    100064: Object017
+    100066: Object018
+    100068: Object049
+    100070: Object050
+    100072: Object051
+    100074: Object052
+    100076: Object053
+    100078: Object054
+    100080: Object055
+    100082: Object056
+    100084: Object057
+    100086: Object058
+    100088: Object064
+    100090: Object065
+    100092: Object066
+    100094: Object067
+    100096: Object068
+    100098: Object069
+    100100: Object070
+    100102: Object071
+    100104: Object072
+    100106: Object073
+    100108: Object074
+    100110: Object075
+    100112: Object076
+    100114: //RootNode
+    100116: Pedals
+    100118: Plane011
+    100120: Plane032
+    100122: Plane034
+    100124: Plane036
+    100126: Plane038
+    100128: Plane062
+    100130: Plane064
+    100132: Plane065
+    100134: Plane066
+    100136: Plane067
+    100138: Plane071
+    100140: Plane072
+    100142: Plane073
+    100144: Plane076
+    100146: Plane079
+    100148: Plane080
+    100150: Plane081
+    100152: Plane082
+    100154: Plane085
+    100156: Plane086
+    100158: Plane087
+    100160: Pyramid585
+    100162: Pyramid586
+    100164: RearMirrorHolder
+    100166: RoofRack
+    100168: Sphere028
+    100170: Sphere032
+    100172: Sphere036
+    100174: Sphere037
+    100176: Sphere038
+    100178: SunPanel001
+    100180: SunPanel002
+    100182: Tube046
+    100184: Wheel
+    100186: Wheel001
+    100188: Wheel002
+    100190: Wheel003
+    100192: Wheel004
+    100194: WipersLeft
+    100196: WipersRight
+    100198: CarBodyFront
+    100200: CarBodyFront_MeshPart0
+    100202: CarBodyFront_MeshPart1
+    100204: DoorFrontLeft
+    100206: Doors
+    100208: DoorsBackLeft
+    100210: DoorsBackRight
+    100212: DoorsFrontRight
+    100214: Exhaust
+    100216: FrontLight
+    100218: FrontLight 1
+    100220: FrontLight 2
+    100222: FrontLight 3
+    100224: FrontLight 4
+    100226: FrontLight 5
+    100228: FrontLights
+    100230: FrontMask
+    100232: GearsFront
+    100234: Lamp
+    100236: Lamp 1
+    100238: Lamp 10
+    100240: Lamp 11
+    100242: Lamp 12
+    100244: Lamp 13
+    100246: Lamp 14
+    100248: Lamp 15
+    100250: Lamp 16
+    100252: Lamp 17
+    100254: Lamp 18
+    100256: Lamp 19
+    100258: Lamp 2
+    100260: Lamp 20
+    100262: Lamp 21
+    100264: Lamp 22
+    100266: Lamp 23
+    100268: Lamp 24
+    100270: Lamp 25
+    100272: Lamp 26
+    100274: Lamp 27
+    100276: Lamp 3
+    100278: Lamp 4
+    100280: Lamp 5
+    100282: Lamp 6
+    100284: Lamp 7
+    100286: Lamp 8
+    100288: Lamp 9
+    100290: Seats
+    100292: SteeringWheel
+    100294: Trunk
+    100296: Trunk 1
+    100298: TrunkLeather
+    100300: Windows
+    400000: BackBumper
+    400002: BackLight
+    400004: BackLight001
+    400006: BackWindowTrim
+    400008: BlackPanels
+    400010: Box296
+    400012: Box359
+    400014: Box360
+    400016: CarBody
+    400018: CarBody_MeshPart0
+    400020: CarBody_MeshPart1
+    400022: CarBody_MeshPart2
+    400024: Dashboard
+    400026: Exhaust1
+    400028: Floor
+    400030: GearBack
+    400032: GearsFront001
+    400034: Helix001
+    400036: HoodTrim
+    400038: innerfender001
+    400040: InnerFenderBackR
+    400042: InnerShell
+    400044: InteriorAutomaticGear
+    400046: InteriorFrame
+    400048: InteriorPanel
+    400050: Object006
+    400052: Object007
+    400054: Object008
+    400056: Object009
+    400058: Object010
+    400060: Object013
+    400062: Object016
+    400064: Object017
+    400066: Object018
+    400068: Object049
+    400070: Object050
+    400072: Object051
+    400074: Object052
+    400076: Object053
+    400078: Object054
+    400080: Object055
+    400082: Object056
+    400084: Object057
+    400086: Object058
+    400088: Object064
+    400090: Object065
+    400092: Object066
+    400094: Object067
+    400096: Object068
+    400098: Object069
+    400100: Object070
+    400102: Object071
+    400104: Object072
+    400106: Object073
+    400108: Object074
+    400110: Object075
+    400112: Object076
+    400114: //RootNode
+    400116: Pedals
+    400118: Plane011
+    400120: Plane032
+    400122: Plane034
+    400124: Plane036
+    400126: Plane038
+    400128: Plane062
+    400130: Plane064
+    400132: Plane065
+    400134: Plane066
+    400136: Plane067
+    400138: Plane071
+    400140: Plane072
+    400142: Plane073
+    400144: Plane076
+    400146: Plane079
+    400148: Plane080
+    400150: Plane081
+    400152: Plane082
+    400154: Plane085
+    400156: Plane086
+    400158: Plane087
+    400160: Pyramid585
+    400162: Pyramid586
+    400164: RearMirrorHolder
+    400166: RoofRack
+    400168: Sphere028
+    400170: Sphere032
+    400172: Sphere036
+    400174: Sphere037
+    400176: Sphere038
+    400178: SunPanel001
+    400180: SunPanel002
+    400182: Tube046
+    400184: Wheel
+    400186: Wheel001
+    400188: Wheel002
+    400190: Wheel003
+    400192: Wheel004
+    400194: WipersLeft
+    400196: WipersRight
+    400198: CarBodyFront
+    400200: CarBodyFront_MeshPart0
+    400202: CarBodyFront_MeshPart1
+    400204: DoorFrontLeft
+    400206: Doors
+    400208: DoorsBackLeft
+    400210: DoorsBackRight
+    400212: DoorsFrontRight
+    400214: Exhaust
+    400216: FrontLight
+    400218: FrontLight 1
+    400220: FrontLight 2
+    400222: FrontLight 3
+    400224: FrontLight 4
+    400226: FrontLight 5
+    400228: FrontLights
+    400230: FrontMask
+    400232: GearsFront
+    400234: Lamp
+    400236: Lamp 1
+    400238: Lamp 10
+    400240: Lamp 11
+    400242: Lamp 12
+    400244: Lamp 13
+    400246: Lamp 14
+    400248: Lamp 15
+    400250: Lamp 16
+    400252: Lamp 17
+    400254: Lamp 18
+    400256: Lamp 19
+    400258: Lamp 2
+    400260: Lamp 20
+    400262: Lamp 21
+    400264: Lamp 22
+    400266: Lamp 23
+    400268: Lamp 24
+    400270: Lamp 25
+    400272: Lamp 26
+    400274: Lamp 27
+    400276: Lamp 3
+    400278: Lamp 4
+    400280: Lamp 5
+    400282: Lamp 6
+    400284: Lamp 7
+    400286: Lamp 8
+    400288: Lamp 9
+    400290: Seats
+    400292: SteeringWheel
+    400294: Trunk
+    400296: Trunk 1
+    400298: TrunkLeather
+    400300: Windows
+    2300000: BackBumper
+    2300002: BackWindowTrim
+    2300004: BlackPanels
+    2300006: Box296
+    2300008: Box359
+    2300010: Box360
+    2300012: CarBody_MeshPart0
+    2300014: CarBody_MeshPart1
+    2300016: CarBody_MeshPart2
+    2300018: Dashboard
+    2300020: Exhaust1
+    2300022: Floor
+    2300024: GearBack
+    2300026: GearsFront001
+    2300028: Helix001
+    2300030: HoodTrim
+    2300032: innerfender001
+    2300034: InnerFenderBackR
+    2300036: InnerShell
+    2300038: InteriorAutomaticGear
+    2300040: InteriorFrame
+    2300042: InteriorPanel
+    2300044: Object006
+    2300046: Object007
+    2300048: Object008
+    2300050: Object009
+    2300052: Object010
+    2300054: Object013
+    2300056: Object016
+    2300058: Object017
+    2300060: Object018
+    2300062: Object049
+    2300064: Object050
+    2300066: Object051
+    2300068: Object052
+    2300070: Object053
+    2300072: Object054
+    2300074: Object055
+    2300076: Object056
+    2300078: Object057
+    2300080: Object058
+    2300082: Object064
+    2300084: Object065
+    2300086: Object066
+    2300088: Object067
+    2300090: Object068
+    2300092: Object069
+    2300094: Object070
+    2300096: Object071
+    2300098: Object072
+    2300100: Object073
+    2300102: Object074
+    2300104: Object075
+    2300106: Object076
+    2300108: Pedals
+    2300110: Plane011
+    2300112: Plane032
+    2300114: Plane034
+    2300116: Plane036
+    2300118: Plane038
+    2300120: Plane062
+    2300122: Plane064
+    2300124: Plane065
+    2300126: Plane066
+    2300128: Plane067
+    2300130: Plane071
+    2300132: Plane072
+    2300134: Plane073
+    2300136: Plane076
+    2300138: Plane079
+    2300140: Plane080
+    2300142: Plane081
+    2300144: Plane082
+    2300146: Plane085
+    2300148: Plane086
+    2300150: Plane087
+    2300152: Pyramid585
+    2300154: Pyramid586
+    2300156: RearMirrorHolder
+    2300158: RoofRack
+    2300160: Sphere028
+    2300162: Sphere032
+    2300164: Sphere036
+    2300166: Sphere037
+    2300168: Sphere038
+    2300170: SunPanel001
+    2300172: SunPanel002
+    2300174: Tube046
+    2300176: WipersLeft
+    2300178: WipersRight
+    2300180: CarBody
+    2300182: CarBodyFront_MeshPart0
+    2300184: CarBodyFront_MeshPart1
+    2300186: DoorFrontLeft
+    2300188: DoorsBackLeft
+    2300190: DoorsBackRight
+    2300192: DoorsFrontRight
+    2300194: Exhaust
+    2300196: FrontLight
+    2300198: FrontLight 1
+    2300200: FrontLight 2
+    2300202: FrontLight 3
+    2300204: FrontLight 4
+    2300206: FrontLight 5
+    2300208: FrontMask
+    2300210: GearsFront
+    2300212: Lamp 14
+    2300214: Lamp 15
+    2300216: Lamp 16
+    2300218: Lamp 17
+    2300220: Lamp 18
+    2300222: Lamp 19
+    2300224: Lamp 2
+    2300226: Lamp 20
+    2300228: Lamp 21
+    2300230: Lamp 22
+    2300232: Lamp 23
+    2300234: Lamp 24
+    2300236: Lamp 25
+    2300238: Lamp 26
+    2300240: Lamp 27
+    2300242: Lamp 3
+    2300244: Lamp 4
+    2300246: Lamp 5
+    2300248: Lamp 6
+    2300250: Lamp 7
+    2300252: Lamp 8
+    2300254: Lamp 9
+    2300256: Seats
+    2300258: SteeringWheel
+    2300260: Trunk 1
+    2300262: TrunkLeather
+    2300264: Windows
+    3300000: BackBumper
+    3300002: BackWindowTrim
+    3300004: BlackPanels
+    3300006: Box296
+    3300008: Box359
+    3300010: Box360
+    3300012: CarBody_MeshPart0
+    3300014: CarBody_MeshPart1
+    3300016: CarBody_MeshPart2
+    3300018: Dashboard
+    3300020: Exhaust1
+    3300022: Floor
+    3300024: GearBack
+    3300026: GearsFront001
+    3300028: Helix001
+    3300030: HoodTrim
+    3300032: innerfender001
+    3300034: InnerFenderBackR
+    3300036: InnerShell
+    3300038: InteriorAutomaticGear
+    3300040: InteriorFrame
+    3300042: InteriorPanel
+    3300044: Object006
+    3300046: Object007
+    3300048: Object008
+    3300050: Object009
+    3300052: Object010
+    3300054: Object013
+    3300056: Object016
+    3300058: Object017
+    3300060: Object018
+    3300062: Object049
+    3300064: Object050
+    3300066: Object051
+    3300068: Object052
+    3300070: Object053
+    3300072: Object054
+    3300074: Object055
+    3300076: Object056
+    3300078: Object057
+    3300080: Object058
+    3300082: Object064
+    3300084: Object065
+    3300086: Object066
+    3300088: Object067
+    3300090: Object068
+    3300092: Object069
+    3300094: Object070
+    3300096: Object071
+    3300098: Object072
+    3300100: Object073
+    3300102: Object074
+    3300104: Object075
+    3300106: Object076
+    3300108: Pedals
+    3300110: Plane011
+    3300112: Plane032
+    3300114: Plane034
+    3300116: Plane036
+    3300118: Plane038
+    3300120: Plane062
+    3300122: Plane064
+    3300124: Plane065
+    3300126: Plane066
+    3300128: Plane067
+    3300130: Plane071
+    3300132: Plane072
+    3300134: Plane073
+    3300136: Plane076
+    3300138: Plane079
+    3300140: Plane080
+    3300142: Plane081
+    3300144: Plane082
+    3300146: Plane085
+    3300148: Plane086
+    3300150: Plane087
+    3300152: Pyramid585
+    3300154: Pyramid586
+    3300156: RearMirrorHolder
+    3300158: RoofRack
+    3300160: Sphere028
+    3300162: Sphere032
+    3300164: Sphere036
+    3300166: Sphere037
+    3300168: Sphere038
+    3300170: SunPanel001
+    3300172: SunPanel002
+    3300174: Tube046
+    3300176: WipersLeft
+    3300178: WipersRight
+    3300180: CarBody
+    3300182: CarBodyFront_MeshPart0
+    3300184: CarBodyFront_MeshPart1
+    3300186: DoorFrontLeft
+    3300188: DoorsBackLeft
+    3300190: DoorsBackRight
+    3300192: DoorsFrontRight
+    3300194: Exhaust
+    3300196: FrontLight
+    3300198: FrontLight 1
+    3300200: FrontLight 2
+    3300202: FrontLight 3
+    3300204: FrontLight 4
+    3300206: FrontLight 5
+    3300208: FrontMask
+    3300210: GearsFront
+    3300212: Lamp 14
+    3300214: Lamp 15
+    3300216: Lamp 16
+    3300218: Lamp 17
+    3300220: Lamp 18
+    3300222: Lamp 19
+    3300224: Lamp 2
+    3300226: Lamp 20
+    3300228: Lamp 21
+    3300230: Lamp 22
+    3300232: Lamp 23
+    3300234: Lamp 24
+    3300236: Lamp 25
+    3300238: Lamp 26
+    3300240: Lamp 27
+    3300242: Lamp 3
+    3300244: Lamp 4
+    3300246: Lamp 5
+    3300248: Lamp 6
+    3300250: Lamp 7
+    3300252: Lamp 8
+    3300254: Lamp 9
+    3300256: Seats
+    3300258: SteeringWheel
+    3300260: Trunk 1
+    3300262: TrunkLeather
+    3300264: Windows
+    4300000: Box296
+    4300002: CarBody_MeshPart0
+    4300004: CarBody_MeshPart1
+    4300006: CarBody_MeshPart2
+    4300008: Object057
+    4300010: Object053
+    4300012: Object009
+    4300014: GearBack
+    4300016: Object051
+    4300018: Object052
+    4300020: InteriorAutomaticGear
+    4300022: Object016
+    4300024: Sphere037
+    4300026: GearsFront001
+    4300028: Object058
+    4300030: Box360
+    4300032: innerfender001
+    4300034: InnerFenderBackR
+    4300036: Object055
+    4300038: BlackPanels
+    4300040: Object056
+    4300042: SunPanel002
+    4300044: Floor
+    4300046: Object008
+    4300048: Sphere032
+    4300050: Object054
+    4300052: Sphere038
+    4300054: Dashboard
+    4300056: SunPanel001
+    4300058: Pedals
+    4300060: Tube046
+    4300062: WipersLeft
+    4300064: Sphere036
+    4300066: WipersRight
+    4300068: InteriorPanel
+    4300070: InteriorFrame
+    4300072: Plane072
+    4300074: Plane080
+    4300076: Plane036
+    4300078: RoofRack
+    4300080: RearMirrorHolder
+    4300082: Object007
+    4300084: Plane071
+    4300086: Plane073
+    4300088: Plane065
+    4300090: BackBumper
+    4300092: Plane079
+    4300094: Plane032
+    4300096: BackWindowTrim
+    4300098: InnerShell
+    4300100: Object006
+    4300102: Sphere028
+    4300104: Plane081
+    4300106: HoodTrim
+    4300108: Box359
+    4300110: Plane076
+    4300112: Plane038
+    4300114: Plane064
+    4300116: Plane066
+    4300118: Plane034
+    4300120: Plane062
+    4300122: Object018
+    4300124: Exhaust1
+    4300126: Plane067
+    4300128: Object017
+    4300130: Object049
+    4300132: Helix001
+    4300134: Object064
+    4300136: Plane011
+    4300138: Plane082
+    4300140: Pyramid585
+    4300142: Plane085
+    4300144: Plane086
+    4300146: Plane087
+    4300148: Pyramid586
+    4300150: Object010
+    4300152: Object050
+    4300154: Object013
+    4300156: Object065
+    4300158: Object066
+    4300160: Object067
+    4300162: Object068
+    4300164: Object069
+    4300166: Object070
+    4300168: Object071
+    4300170: Object072
+    4300172: Object073
+    4300174: Object074
+    4300176: Object075
+    4300178: Object076
+    4300180: Seats
+    4300182: CarBodyFront_MeshPart0
+    4300184: CarBodyFront_MeshPart1
+    4300186: SteeringWheel
+    4300188: GearsFront
+    4300190: FrontMask
+    4300192: Exhaust
+    4300194: TrunkLeather
+    4300196: Windows
+    4300198: CarBody
+    4300200: Lamp
+    4300202: Lamp
+    4300204: Lamp
+    4300206: Lamp
+    4300208: Lamp
+    4300210: Lamp
+    4300212: Lamp
+    4300214: Lamp
+    4300216: FrontLight
+    4300218: FrontLight
+    4300220: FrontLight
+    4300222: FrontLight
+    4300224: FrontLight
+    4300226: FrontLight
+    4300228: Trunk
+    4300230: Lamp
+    4300232: Lamp
+    4300234: Lamp
+    4300236: Lamp
+    4300238: Lamp
+    4300240: Lamp
+    4300242: Lamp
+    4300244: Lamp
+    4300246: Lamp
+    4300248: Lamp
+    4300250: Lamp
+    4300252: Lamp
+    4300254: Lamp
+    4300256: Lamp
+    4300258: DoorsBackLeft
+    4300260: DoorFrontLeft
+    4300262: DoorsFrontRight
+    4300264: DoorsBackRight
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
