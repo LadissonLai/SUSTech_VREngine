@@ -128,7 +128,7 @@ namespace Fxb.CMSVR
                     item.text = curPage.taskTitle;
                 }
                 if(item.name == "Description") {
-                    item.text = "操作步骤";
+                    item.text = "Operation steps:";
                 }
                 if(item.name == "DoneCount") {
                     item.text = doneCount.ToString() + "/" + steps.Count;

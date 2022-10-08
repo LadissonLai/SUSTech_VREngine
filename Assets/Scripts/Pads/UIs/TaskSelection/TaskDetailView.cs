@@ -19,7 +19,7 @@ namespace Fxb.CMSVR
 
         public TextMeshProUGUI description;
 
-        public string descriptionPrex = "<b>任务描述</b>：";
+        public string descriptionPrex = "<b>Task Description</b>：";
 
         public TextMeshProUGUI completedAmountTxt;
 
@@ -150,7 +150,7 @@ namespace Fxb.CMSVR
 
         void SubmitTask()
         {
-            string hint = taskModel.CheckAllTaskCompleted() ? "确定提交吗？" : "有任务尚未完成，是否提交？";
+            string hint = taskModel.CheckAllTaskCompleted() ? "Are you sure to submit?" : "There is a task that has not been completed, submit it?";
 
             var alert = UIPopupManager.ShowPopup(DoozyNamesDB.POPUP_NAME_YESORNO, false, false)
                 .GetComponent<YesOrNoPopup>();
@@ -159,8 +159,8 @@ namespace Fxb.CMSVR
             {
                 title = null,
                 msg = hint,
-                enterBtnText = "提交",
-                cancelBtnText = "再想想"
+                enterBtnText = "submit",
+                cancelBtnText = "think again"
             });
 
             alert.OnEntrerBtnClick += DoSubmitTask;

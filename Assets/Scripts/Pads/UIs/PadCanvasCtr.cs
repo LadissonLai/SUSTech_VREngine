@@ -87,10 +87,10 @@ public class PadCanvasCtr : MonoBehaviour
 
         alert.UpdateMsg(new YesOrNoPopup.Data()
         {
-            title = "退出",
-            msg = "是否退出?",
-            enterBtnText = "是",
-            cancelBtnText = "否"
+            title = "quit",
+            msg = "whether to quit?",
+            enterBtnText = "yes",
+            cancelBtnText = "no"
         });
 
         alert.OnEntrerBtnClick += (param) => Application.Quit();
