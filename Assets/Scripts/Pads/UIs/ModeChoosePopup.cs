@@ -34,7 +34,7 @@ namespace Fxb.CMSVR
 
         public void UpdateData(string taskID)
         {
-            title.text = $"当前任务：{World.Get<TaskCsvConfig>().FindRowDatas(taskID).Title}";
+            title.text = $"Curent Task:{World.Get<TaskCsvConfig>().FindRowDatas(taskID).Title}";
 
             curTaskID = taskID;
         }

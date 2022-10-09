@@ -1263,30 +1263,105 @@ PrefabInstance:
       propertyPath: rmsCount
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 247357108657542191, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Throttle valve assembly
+      objectReference: {fileID: 0}
     - target: {fileID: 547534663232614615, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
       propertyPath: rmsCount
       value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 580740808953973721, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Vacuum pump
+      objectReference: {fileID: 0}
+    - target: {fileID: 696293280371512589, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Intake manifold
+      objectReference: {fileID: 0}
+    - target: {fileID: 786440359205090840, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: oil cooler
+      objectReference: {fileID: 0}
+    - target: {fileID: 864955568135192527, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Valve assembly
+      objectReference: {fileID: 0}
+    - target: {fileID: 866080268521046120, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Turbocharger assembly
+      objectReference: {fileID: 0}
+    - target: {fileID: 946002814108256369, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Cylinder head
       objectReference: {fileID: 0}
     - target: {fileID: 1298494454028814636, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
       propertyPath: rmsCount
       value: 16
       objectReference: {fileID: 0}
+    - target: {fileID: 1643926778761228115, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Camshaft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2261758164367806332, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Flywheel
+      objectReference: {fileID: 0}
     - target: {fileID: 2599488332168711124, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
       propertyPath: rmsCount
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866195747500184892, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Oil filter
       objectReference: {fileID: 0}
     - target: {fileID: 2903064447159317435, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
       propertyPath: rmsCount
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2931233083267010696, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: enableBubbling
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931233083267010696, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Oil pump
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083068770493100165, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Water pump
+      objectReference: {fileID: 0}
     - target: {fileID: 3093390991762002954, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
       propertyPath: rmsCount
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3206500635679445235, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Ignition coils
+      objectReference: {fileID: 0}
+    - target: {fileID: 3709520337506447870, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Crankshaft
       objectReference: {fileID: 0}
     - target: {fileID: 4531222545366569830, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
@@ -1303,10 +1378,25 @@ PrefabInstance:
       propertyPath: rmsCount
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5588446709233083910, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Engine front cover and chain
+      objectReference: {fileID: 0}
     - target: {fileID: 5737994239086715552, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
       propertyPath: m_Name
       value: StructureObj
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021057857477734499, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Camshaft timing gear
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057801325291840611, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Crankshaft torsion damper assembly
       objectReference: {fileID: 0}
     - target: {fileID: 6228999259209485944, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
@@ -1333,10 +1423,20 @@ PrefabInstance:
       propertyPath: rmsCount
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 6906303985007242187, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Fuel injection pump
+      objectReference: {fileID: 0}
     - target: {fileID: 7023906978380609337, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
       propertyPath: rmsCount
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269362403127640201, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Fuel rail
       objectReference: {fileID: 0}
     - target: {fileID: 7423995482411877487, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
@@ -1347,6 +1447,16 @@ PrefabInstance:
         type: 3}
       propertyPath: rmsCount
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7914670809851815742, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Piston set
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975825963910664633, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Valve cover
       objectReference: {fileID: 0}
     - target: {fileID: 8120462172239866700, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
@@ -1417,6 +1527,16 @@ PrefabInstance:
         type: 3}
       propertyPath: rmsCount
       value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965551705338569888, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Cylinder
+      objectReference: {fileID: 0}
+    - target: {fileID: 9115313991904159380, guid: 886d7ee9ba5186146838a521978f841d,
+        type: 3}
+      propertyPath: readableName
+      value: Oil pan
       objectReference: {fileID: 0}
     - target: {fileID: 9156953070788747841, guid: 886d7ee9ba5186146838a521978f841d,
         type: 3}
@@ -3634,7 +3754,7 @@ PrefabInstance:
     - target: {fileID: 3775014102848480333, guid: 58d6e8fa5a13b734a9a766350428e109,
         type: 3}
       propertyPath: readableName
-      value: "\u94B3\u5B50"
+      value: Pliers
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58d6e8fa5a13b734a9a766350428e109, type: 3}
@@ -5435,7 +5555,7 @@ PrefabInstance:
     - target: {fileID: 3976863258974884642, guid: 5940da5aa7d2e61419a83112aab21cda,
         type: 3}
       propertyPath: readableName
-      value: "\u65CB\u67C4"
+      value: Handle
       objectReference: {fileID: 0}
     - target: {fileID: 3976863258974884702, guid: 5940da5aa7d2e61419a83112aab21cda,
         type: 3}
@@ -8538,7 +8658,7 @@ PrefabInstance:
     - target: {fileID: 350710442020216136, guid: 6042166bad463b444857355877572d1e,
         type: 3}
       propertyPath: readableName
-      value: "\u5341\u5B57\u87BA\u4E1D\u5200"
+      value: Phillips screwdriver
       objectReference: {fileID: 0}
     - target: {fileID: 6002512954461745248, guid: 6042166bad463b444857355877572d1e,
         type: 3}

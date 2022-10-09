@@ -159,9 +159,9 @@ namespace Fxb.CMSVR
             alert.UpdateMsg(new YesOrNoPopup.Data()
             {
                 title = null,
-                msg = $"将会中断任务-{taskModel.GetData()[0].taskTitle}，是否继续选择?",
-                enterBtnText = "确定",
-                cancelBtnText = "取消"
+                msg = $"Select the new one will interrupt the task，continue?",
+                enterBtnText = "Yes",
+                cancelBtnText = "No"
             });
 
             alert.OnEntrerBtnClick += param => TryChooseTaskMode();

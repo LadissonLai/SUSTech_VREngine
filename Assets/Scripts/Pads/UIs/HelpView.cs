@@ -58,7 +58,7 @@ namespace Fxb.CPTTS
         {
             powerListTipGroup.gameObject.SetActive(!isHtc);
 
-            textMeshProDiscOrRocker.text = isHtc ? "1 -圆盘键:" : "1 - 摇杆:";
+            textMeshProDiscOrRocker.text = isHtc ? "1-Disk key:" : "1-Rocker:";
 
             var spritestring = isHtc ? spriteName : string.Concat(spriteName, "2");
 
