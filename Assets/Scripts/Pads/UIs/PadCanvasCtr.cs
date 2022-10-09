@@ -89,8 +89,8 @@ public class PadCanvasCtr : MonoBehaviour
         {
             title = "quit",
             msg = "whether to quit?",
-            enterBtnText = "yes",
-            cancelBtnText = "no"
+            enterBtnText = "Yes",
+            cancelBtnText = "No"
         });
 
         alert.OnEntrerBtnClick += (param) => Application.Quit();

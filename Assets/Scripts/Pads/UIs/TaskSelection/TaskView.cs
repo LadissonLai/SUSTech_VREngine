@@ -159,7 +159,7 @@ namespace Fxb.CMSVR
             alert.UpdateMsg(new YesOrNoPopup.Data()
             {
                 title = null,
-                msg = $"Select the new one will interrupt the task，continue?",
+                msg = $"Select new one will interrupt the task,continue?",
                 enterBtnText = "Yes",
                 cancelBtnText = "No"
             });
