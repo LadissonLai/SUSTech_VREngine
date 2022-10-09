@@ -17,7 +17,12 @@ Virtual reality(VR) is a hot research topic, and it has been effectively applied
 * HTC VIVE
 
 ## Getting Started
-
-
-
+* Install [SteamVR](https://store.steampowered.com/app/250820/SteamVR/).
+* Install the realeased package. The package is a compressed file named VR_Teaching. Download and extract the release file.
+* Start HTC VIVE device. The VR_Teaching software will automatically connect the device.
+  
+## Teaching Contents
+* Training and Examing of the disassembly and assembly of car engines
+* Exploded view of engine
+* Exploded view of engine
 
