@@ -82,7 +82,7 @@ namespace Fxb.DA
             var screwOutRes = screwOut;
 
             var wrenchCtr = usingTool as AnimWrenchCtr;
-             
+
             var useAbleRes = CheckWrenchUseAble(false, wrenchCtr);
 
             IsAnimSuccess = useAbleRes.useAble;
@@ -109,7 +109,7 @@ namespace Fxb.DA
                 yield break;
 
             var wrenchCtr = usingTool as AnimWrenchCtr;
-           
+
             var useAbleRes = CheckWrenchUseAble(true, wrenchCtr);
 
             IsAnimSuccess = useAbleRes.useAble;
@@ -117,7 +117,7 @@ namespace Fxb.DA
             //是否成功都可以播放对应动画
             if (!IsAnimSuccess)
             {
-                Message.Send(new DAToolErrorMessage(useAbleRes.errorMsg,daObjID, DAAnimType.Fix));
+                Message.Send(new DAToolErrorMessage(useAbleRes.errorMsg, daObjID, DAAnimType.Fix));
 
                 yield break;
             }
@@ -145,12 +145,13 @@ namespace Fxb.DA
         protected virtual (bool useAble, string errorMsg) CheckWrenchUseAble(bool isFixed, AnimWrenchCtr wrench)
         {
             (bool useAble, string errorMsg) res = (true, null);
-             
+
             if (wrench == null)
             {
                 res.useAble = false;
 
-                res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("请使用正确的工具进行操作");
+                //res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("请使用正确的工具进行操作");
+                res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("Please use the correct tool");
 
                 return res;
             }
@@ -179,7 +180,8 @@ namespace Fxb.DA
             {
                 res.useAble = false;
 
-                res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("请使用正确的套筒组合工具操作");
+                //res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("请使用正确的套筒组合工具操作");
+                res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("Please use the correct socket combination");
 
                 return res;
             }
@@ -190,7 +192,8 @@ namespace Fxb.DA
                 {
                     res.useAble = false;
 
-                    res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("需要接杆");
+                    //res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("需要接杆");
+                    res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("Post required");
 
                     return res;
                 }
@@ -200,7 +203,8 @@ namespace Fxb.DA
             {
                 res.useAble = false;
 
-                res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("请使用棘轮扳手操作");
+                //res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("请使用棘轮扳手操作");
+                res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("Please use a ratchet wrench");
 
                 return res;
             }
@@ -212,18 +216,21 @@ namespace Fxb.DA
 
                 if (wrenchInfo.torsion < 0)
                 {
-                    res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("使用扭力扳手操作");
+                    //res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("使用扭力扳手操作");
+                    res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("Using a torque wrench");
                 }
                 else
                 {
-                    res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("扭力设置错误");
+                    //res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("扭力设置错误");
+                    res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("Torque setting error");
                 }
 
                 return res;
             }
 
             if (!res.useAble && res.errorMsg == null)
-                res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("请使用正确的工具进行操作");
+                //res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("请使用正确的工具进行操作");
+                res.errorMsg = LocalizeMgr.Inst.GetLocalizedStr("Please use the correct tool");
 
             return res;
         }
