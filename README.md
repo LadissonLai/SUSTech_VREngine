@@ -1,4 +1,4 @@
-VR - Teaching
+SUSTech_VREngine
 ===============
 
 ## Introduction
