@@ -24,4 +24,4 @@ Virtual reality(VR) is a hot research topic, and it has been effectively applied
 ## Teaching Contents
 * Training and Examing of the disassembly and assembly of car engines
 * Exploded view of engine
-
+* Training of the use of disassemble and assemble tools
