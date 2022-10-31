@@ -59,7 +59,7 @@ namespace Fxb.CMSVR
             }
             else
             {
-                error = "未做";
+                error = "Not Done.";
 
                 score = curStepScore.ToString();
             }

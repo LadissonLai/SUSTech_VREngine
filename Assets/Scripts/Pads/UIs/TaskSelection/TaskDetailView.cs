@@ -160,7 +160,7 @@ namespace Fxb.CMSVR
                 title = null,
                 msg = hint,
                 enterBtnText = "submit",
-                cancelBtnText = "think again"
+                cancelBtnText = "cancel"
             });
 
             alert.OnEntrerBtnClick += DoSubmitTask;
