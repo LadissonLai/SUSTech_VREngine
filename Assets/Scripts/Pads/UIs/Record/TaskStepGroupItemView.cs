@@ -75,7 +75,7 @@ namespace Fxb.CMSVR
 
             title.text = taskModel.GetStepGroupDescription(curData.id);
 
-            score.text = $"({curData.score}分)";
+            score.text = $"({curData.score})";
 
             if (curIndex == 0)
                 headMarkMask.enabled = true;
