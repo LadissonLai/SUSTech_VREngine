@@ -18,10 +18,12 @@ Virtual reality(VR) is a hot research topic, and it has been effectively applied
 
 ## Getting Started
 * Install [SteamVR](https://store.steampowered.com/app/250820/SteamVR/).
-* Install the realeased package. The package is a compressed file named VR_Teaching. Download and extract the release file.
-* Start HTC VIVE device. The VR_Teaching software will automatically connect the device.
+* Install the realeased package. The package is a compressed file named SUSTech_VREngine. Download and extract the release file.
+* Start HTC VIVE device. 
+* Launch the SUSTech_VREngine.exe file, and it will automatically start SteamVR software and connect the HTC VIVE device.
+* Enjoy!!
   
 ## Teaching Contents
 * Training and Examing of the disassembly and assembly of car engines
 * Exploded view of engine
-* Training of the use of disassemble and assemble tools
+* Training of the use of the toolbox.
