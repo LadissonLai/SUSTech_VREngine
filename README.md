@@ -2,7 +2,7 @@ SUSTech_VREngine
 ===============
 
 ## Introduction
-SUSTech_VREngine is an open-source software of Training students to learn automotive engine assembly and disassembly, which aims to allow students to use VR headsets, handles and other accessories to simulate the disassembly and assembly of automotive engines in a virtual environment. SUSTech_VREngine is developed based on Unity3D and VRTK plugins and has been implemented and demonstrated in the courses of Chinese vocational colleges to train students of automotive-related majors for automotive engine assembly and disassembly. 
+SUSTech_VREngine is an open-source software of training students to learn automotive engine assembly and disassembly, which aims to allow students to use VR headsets, handles and other accessories to simulate the disassembly and assembly of automotive engines in a virtual environment. SUSTech_VREngine is developed based on Unity3D and VRTK plugins and has been implemented and demonstrated in the courses of Chinese vocational colleges to train students of automotive-related majors for automotive engine assembly and disassembly. 
 ![](./Docs/overview.png)
 The source code and the executable file (Microsoft Windows) are available at https://github.com/LadissonLai/SUSTech_VREngine for facilitating the development of VR systems in the automotive industry. Finally, a video of the operation in SUSTech_VREngine is available at https://youtu.be/yZe4YTwwAC
 
